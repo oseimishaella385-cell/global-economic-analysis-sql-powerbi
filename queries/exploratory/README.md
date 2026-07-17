@@ -13,3 +13,4 @@ Examine the distribution of salaries and the cost-of-living indices.
 
 Validate data before joining the datasets.
  
+The corresponding SQL scripts are available in sql/02_exploratory_queries.sql
