@@ -4,7 +4,9 @@
     • Standardising country names 
     • Filtering salary data to 2024
     • Selecting salary values reported in USD (PPP)
-    • Joining the 'cost of living' dataset with the Global Annual Average salary
+    Found in Exploratory script.sql
+    
+    • Joining the 'cost of living' dataset with the "Global Annual Average salary" dataset to create views  
     
     • Custom metric created for
     salary index ratio,
