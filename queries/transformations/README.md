@@ -1,20 +1,5 @@
 # Transformation Queries
 
-   Transformations include:
-    • Standardising country names 
-    • Filtering salary data to 2024
-    • Selecting salary values reported in USD (PPP)
-    Found in Exploratory script.sql
-    
-    • Joining the 'cost of living' dataset with the "Global Annual Average salary" dataset to create the view salaries_2024, which was later used to create the second view ' Country analysis'.
-    
-    • Custom metric created for
-    salary index ratio,
-    Salary Value category,
-    salary value score
-    can be found in Country metrics.sql
-
-
     These SQL scripts were used to clean, standardise, transform, and prepare the datasets for analysis and visualisation in Power BI.
 
 The transformation process included:
@@ -30,4 +15,4 @@ Creating custom analytical fields to support affordability analysis, including:
 Salary Value Score (Average Annual Salary ÷ Cost of Living Index)
 Salary Value Category
 Salary Value Rank
-These transformations are documented in Country metrics.sql,
+These transformations are documented in Country metrics.sql, View - Country analysis.sql and view - Salaries 2024 Tab..sql
