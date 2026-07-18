@@ -6,7 +6,7 @@
     • Selecting salary values reported in USD (PPP)
     Found in Exploratory script.sql
     
-    • Joining the 'cost of living' dataset with the "Global Annual Average salary" dataset to create views  
+    • Joining the 'cost of living' dataset with the "Global Annual Average salary" dataset to create view salaries_2024 which was later used to create second view   
     
     • Custom metric created for
     salary index ratio,
