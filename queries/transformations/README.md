@@ -6,4 +6,9 @@
     • Selecting salary values reported in USD (PPP)
     • Joining the 'cost of living' dataset with the Global Annual Average salary
     
-    • Creating analytical metrics
+    • Custom metric created for
+    salary index ratio,
+    Salary Value category,
+    salary value score
+    can be found in Country metrics.sql
+    
