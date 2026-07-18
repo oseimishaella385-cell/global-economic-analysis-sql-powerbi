@@ -13,4 +13,4 @@ Confirm salary units (USD PPP).
 
 Validate data before joining the datasets.
  
-The corresponding SQL scripts are available in sql/02_exploratory_queries.sql
+
