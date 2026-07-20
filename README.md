@@ -36,7 +36,17 @@
 ---
 
 ## 1. Project Overview
+In recent years, the increased cost of living has become a significant global issue, making it difficult for many people to maintain their standard of living. This project was motivated by the desire to understand how living costs compare with average annual salaries across different countries, and to explore which countries offer the greatest affordability.
 
+Problem statement
+" A high salary does not necessarily mean a better quality of life if the cost of living is also high"
+
+Approach
+Datasets from the OECD and Numbeo were reviewed and consolidated into a single analytical dataset.  I then developed an interactive Power BI dashboard to compare countries using salary, cost of living, purchasing power, and a custom Salary Value Score to evaluate overall affordability.
+
+The analysis showed that countries with the highest salaries were not always the most affordable. Using the Salary Value Score, the project identified [Top Country] as offering one of the strongest balances between salary and living costs, demonstrating that affordability depends on both income and the cost of goods and services rather than salary alone.
+
+Using SQL 
 <!--
   Write 3–5 sentences in plain language.
   Cover: context → problem → approach → outcome.
