@@ -12,7 +12,8 @@ These transformation steps are documented in the Exploratory script.sql
 Creating the salaries_2024 view by filtering and preparing the salary dataset for analysis.
 Joining the salaries_2024 view with the Cost of Living dataset using an INNER JOIN to create the final country_analysis view, which served as the analytical dataset for the project.
 Creating custom analytical fields to support affordability analysis, including:
-Salary Value Score (Average Annual Salary ÷ Cost of Living Index)
-Salary Value Category
-Salary Value Rank
+Salary Value Score (Average Annual Salary ÷ Cost of Living Index),
+Salary Value Category,
+Salary Value Rank.
+
 These transformations are documented in Country metrics.sql, View - Country analysis.sql and view - Salaries 2024 Tab..sql
