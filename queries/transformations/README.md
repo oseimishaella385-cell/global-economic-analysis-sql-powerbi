@@ -19,4 +19,6 @@ Salary Value Score
 Salary Value Category
 Salary Value Rank
 
+Transformations documented in  Country metrics.sql
+
 
