@@ -143,8 +143,8 @@ The analysis showed that countries with the highest salaries were not always the
 | Analysis |  custom SQL queries |
 | Visualization | Power BI |
 | Version Control |  GitHub |
-| Documentation | [e.g., Markdown, Notion] |
-| Other | [Any additional tools] |
+| Documentation | Markdown |
+
 
 ---
 
