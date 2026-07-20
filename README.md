@@ -529,12 +529,12 @@ erDiagram
 
 ## 14. Author
 
-**[Your Name]**
+**[Mishaella Osei]**
 [Your role or title - current or target]
 
 - 🔗 [LinkedIn URL]
 - 💼 [Portfolio or GitHub profile URL]
-- 📧 [Email - optional]
+- 📧 [Email - Oseimishaella385@gmail.com]
 
 ---
 
