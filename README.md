@@ -96,10 +96,10 @@ The analysis showed that countries with the highest salaries were not always the
   (These can't fail - which means they can't succeed either.)
 -->
 
-- **Primary Objective:** [The main thing you set out to do]
-- **Secondary Objective 1:** [Supporting goal]
-- **Secondary Objective 2:** [Supporting goal]
-- **Secondary Objective 3:** [Remove if not applicable]
+- **Primary Objective:** To assess whether average annual salaries keep pace with the cost of living across countries
+- **Secondary Objective 1:** Identify which top 5 countries offer the best balance between average annual salary and cost of living by developing a custom Salary Value Score.
+- **Secondary Objective 2:** Do countries with higher average salaries also have higher local purchasing power?
+
 
 > 💡 *Every analysis decision in this project traces back to one of these objectives.*
 
