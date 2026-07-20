@@ -1,4 +1,4 @@
-# [Project Title]
+# [Which Countries Offer the Best Value? A Global Salary and Cost of Living Analysis]
 > *One sentence. What did you analyze, build, or solve - and why does it matter?*
 
 ---
