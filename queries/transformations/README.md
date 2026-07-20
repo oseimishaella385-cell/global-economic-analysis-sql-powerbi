@@ -1,4 +1,4 @@
-# Transformation Queries
+# Data Preparation and Transformation Queries
 
     These SQL scripts were used to clean, standardise, transform, and prepare the datasets for analysis and visualisation in Power BI.
 
