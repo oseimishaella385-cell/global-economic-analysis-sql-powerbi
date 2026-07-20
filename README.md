@@ -124,10 +124,10 @@ The analysis showed that countries with the highest salaries were not always the
 
 | Dimension | Details |
 |-----------|---------|
-| **In Scope** | [What is included - data sources, time periods, segments] |
-| **Out of Scope** | [What you explicitly excluded - and a brief reason why] |
-| **Time Period** | [Date range of the data or the project itself] |
-| **Granularity** | [Unit of analysis - row-level, daily aggregates, per-user, etc.] |
+| **In Scope** | OECD 2024-2026 Average Annual Salary data (USD PPP adjusted) and Numbeo 2024 Cost of Living Index data for countries available in both datasets. |
+| **Out of Scope** | City-level comparisons, restaurant index, historical trend analysis, taxation and countries and years not available in both datasets. |
+| **Time Period** | 2024 |
+| **Granularity** | Country level analysis  |
 
 ### Tools & Technologies
 
@@ -158,7 +158,6 @@ The analysis showed that countries with the highest salaries were not always the
 │   ├── processed/            # Cleaned and transformed data
 │   └── external/             # Reference data, lookup tables, third-party files
 │
-├── notebooks/                # Jupyter, R Markdown, or Colab notebooks
 │
 ├── scripts/                  # Reusable .py, .R, or .sh processing files
 │
@@ -173,7 +172,6 @@ The analysis showed that countries with the highest salaries were not always the
 │
 ├── docs/                     # Data dictionaries, schema notes, reference material
 │
-├── project_metadata.yml      # Machine-readable metadata (optional)
 └── README.md                 # You are here
 ```
 
