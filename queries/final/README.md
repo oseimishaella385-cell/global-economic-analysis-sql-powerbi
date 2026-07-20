@@ -15,3 +15,11 @@ Ranking countries by Local Purchasing Power Index.
 Generating the KPI metrics used within the dashboard.
 
 Categorising countries based on Salary Value Score using conditional logic (CASE) or quartiles (NTILE()).
+
+
+| SQL Script                      | Skills Demonstrated                                                             |
+| ------------------------------- | ------------------------------------------------------------------------------- |
+| `01_data_cleaning.sql`          | Data cleaning, filtering, standardisation                                       |
+| `02_exploratory_queries.sql`    | Data exploration, aggregates, validation                                        |
+| `03_transformation_queries.sql` | INNER JOIN, calculated columns, feature engineering                             |
+| `04_final_queries.sql`          | CTEs, `GROUP BY`, window functions (`RANK`, `NTILE`), `CASE`, business analysis |
