@@ -138,7 +138,7 @@ The analysis showed that countries with the highest salaries were not always the
 
 | Category | Tool(s) Used |
 |----------|-------------|
-| Data Storage | [e.g., PostgreSQL, CSV files, BigQuery, S3] |
+| Data Storage | [CSV files] |
 | Data Processing | [e.g., Python, R, SQL, Excel, dbt] |
 | Analysis | [e.g., pandas, dplyr, custom SQL queries] |
 | Visualization | [e.g., Matplotlib, Tableau, Power BI, Looker] |
