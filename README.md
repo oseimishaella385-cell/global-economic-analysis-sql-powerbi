@@ -101,7 +101,6 @@ The analysis showed that countries with the highest salaries were not always the
 - **Secondary Objective 2:** Do countries with higher average salaries also have higher local purchasing power?
 
 
-> 💡 *Every analysis decision in this project traces back to one of these objectives.*
 
 ---
 
