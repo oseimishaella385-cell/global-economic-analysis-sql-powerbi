@@ -138,11 +138,11 @@ The analysis showed that countries with the highest salaries were not always the
 
 | Category | Tool(s) Used |
 |----------|-------------|
-| Data Storage | [CSV files] |
-| Data Processing | [e.g., Python, R, SQL, Excel, dbt] |
-| Analysis | [e.g., pandas, dplyr, custom SQL queries] |
-| Visualization | [e.g., Matplotlib, Tableau, Power BI, Looker] |
-| Version Control | [e.g., Git / GitHub] |
+| Data Storage | CSV files |
+| Data Processing |  SQL, Excel, |
+| Analysis |  custom SQL queries |
+| Visualization | Power BI |
+| Version Control |  GitHub |
 | Documentation | [e.g., Markdown, Notion] |
 | Other | [Any additional tools] |
 
