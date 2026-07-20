@@ -14,12 +14,4 @@ Ranking countries by Local Purchasing Power Index.
 
 Generating the KPI metrics used within the dashboard.
 
-
-
-
-| SQL Script                      | Skills Demonstrated                                                             |
-| ------------------------------- | ------------------------------------------------------------------------------- |
-| `01_data_cleaning.sql`          | Data cleaning, filtering, standardisation                                       |
-| `02_exploratory_queries.sql`    | Data exploration, aggregates, validation                                        |
-| `03_transformation_queries.sql` | INNER JOIN, calculated columns, feature engineering                             |
-| `04_final_queries.sql`          | CTEs, `GROUP BY`, window functions (`RANK`, `NTILE`), business analysis |
+Documentation can be found in _final_queries.sql
