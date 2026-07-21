@@ -214,6 +214,11 @@ The analysis showed that countries with the highest salaries were not always the
       ↓
 [Output / Visualisation / Reporting]
 ```
+Source: Two publicly available datasets were used: the OECD Average Annual Wages dataset and the Numbeo Cost of Living Index dataset. Both datasets were downloaded as CSV files and contain country-level data for 2024.
+
+Ingestion: Both CSV files were imported into MYSQL, creating two relational tables (Salaries and cost_of_living) that serve as the project's primary data sources.
+
+Cleaning: 
 
 1. **Source:** [Where did the data come from? Format, size, access method.]
 2. **Ingestion:** [How was it brought in?]
