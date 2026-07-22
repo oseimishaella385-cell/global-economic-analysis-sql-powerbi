@@ -155,17 +155,12 @@ The analysis showed that countries with the highest salaries were not always the
 ├── data/
 │   ├── raw/                  # Original, unmodified source data - never edited
 │   ├── processed/            # Cleaned and transformed data
-│   └── external/             # Reference data, lookup tables, third-party files
 │
 │
-├── scripts/                  # Reusable .py, .R, or .sh processing files
-│
-├── queries/                  # SQL files (retain this folder for SQL-heavy projects)
-│   ├── exploratory/          # Ad-hoc or investigative queries
+├── queries/                  # SQL files 
 │   ├── transformations/      # Cleaning and reshaping logic
 │   └── final/                # Production-ready or presentation queries
 │
-├── reports/                  # Final outputs: PDFs, slide decks, Word docs
 │
 ├── visuals/                  # Exported charts, dashboard screenshots, ERD diagrams
 │
@@ -174,10 +169,6 @@ The analysis showed that countries with the highest salaries were not always the
 └── README.md                 # You are here
 ```
 
-> ⚠️ *Delete folders you didn't use. An empty folder is worse than no folder.*
-> SQL-heavy projects: keep `queries/`. Analysis-only projects: keep `notebooks/`. Both? Keep both.
-
----
 
 ## 5. Data Workflow
 
