@@ -253,19 +253,19 @@ Output: Interactive Power BI dashboard, SQL scripts, and project documentation (
      if a formal schema doesn't apply. Even one paragraph is more helpful than nothing.
 -->
 
-### Dataset / Table: `[name]`
+### Dataset / Table: `Cost_of_living`
 
 | Field Name | Data Type | Description | Example Value |
 |------------|-----------|-------------|---------------|
-| `[field_1]` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
-| `[field_2]` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
-| `[field_3]` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
+| Country | VARCHAR| Country name used to join datasets | Australia |
+| Cost of living Index | DECIMAL | Relative cost of living index (NYC = 100) | 70.20 |
+| Local Purchasing Power Index | DECIMAL | Relative local purchasing power index (NYC = 100) | 127.40 |
 
-> **Row count (approx.):** [X rows]
-> **Date range:** [Start] – [End]
-> **Key join / relationship:** [e.g., `orders.customer_id` → `customers.id`]
+> **Row count (approx.):** 122 Rows
+> **Date range:** 2024
+> **Key join / relationship:** cost_of_living.Country → salaries_2024.ReferenceArea
 
-*Add additional table blocks as needed for multi-table projects.*
+
 
 ---
 
