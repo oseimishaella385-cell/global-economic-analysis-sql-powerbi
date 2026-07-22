@@ -286,11 +286,9 @@ The diagram below illustrates the relationship between the OECD salary dataset, 
 
 | Relationship | Join Key | Type |
 |-------------|----------|------|
-| `orders` → `customers` | `customer_id` | Many-to-One |
-| `orders` → `products` | `product_id` | Many-to-One |
-| [Add rows as needed] | | |
+| `cost_of_living` ↔ `salaries_2024` | `cost_of_living.Country = Salaries_2024.ReferenceArea` | one-to-One |
+| Country_analysis| created from an inner join of cost_of_living and salaries_2024 | SQL View |
 
----
 
 ## 8. Analysis & Metrics
 
