@@ -296,7 +296,12 @@ Output: Interactive Power BI dashboard, SQL scripts, and project documentation (
 > **Key join / relationship:**  created by joining salaries_2024.ReferenceArea with cost_of_living.Country  
 
 ## 7. ERD - Entity Relationship Diagram
-### *(Primarily for SQL Projects - remove this section if not applicable)*
+
+The diagram below illustrates the relationship between the OECD salary dataset, the Numbeo Cost of Living dataset, and the final analytical view (`country_analysis`) used throughout this project.
+
+![Entity Relationship Diagram](/visuals/erd.png)
+
+*Figure 1. Entity Relationship Diagram showing the data transformation from the raw salary dataset to the final `country_analysis` view used for SQL analysis and the Power BI dashboard.*
 
 
 
