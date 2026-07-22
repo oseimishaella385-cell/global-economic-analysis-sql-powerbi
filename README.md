@@ -138,7 +138,7 @@ The analysis showed that countries with the highest salaries were not always the
 | Category | Tool(s) Used |
 |----------|-------------|
 | Data Storage | CSV files |
-| Data Processing |  SQL, Excel, |
+| Data Processing |  SQL, Excel |
 | Analysis |  custom SQL queries |
 | Visualization | Power BI |
 | Version Control |  GitHub |
@@ -298,7 +298,8 @@ Output: Interactive Power BI dashboard, SQL scripts, and project documentation (
 ## 7. ERD - Entity Relationship Diagram
 ### *(Primarily for SQL Projects - remove this section if not applicable)*
 
-<!--
+
+
   An ERD shows how your tables connect to each other visually.
   It is the fastest way for a reviewer to understand the data structure
   of a SQL project without reading every query.
