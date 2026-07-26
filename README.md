@@ -317,9 +317,11 @@ The diagram below illustrates the relationship between the OECD salary dataset, 
 
 | Metric | Plain-Language Definition | Why It Matters |
 |--------|--------------------------|----------------|
-| `[Metric 1]` | [What it measures, in one sentence] | [What decision or question it answers] |
-| `[Metric 2]` | [What it measures, in one sentence] | [What decision or question it answers] |
-| `[Metric 3]` | [What it measures, in one sentence] | [What decision or question it answers] |
+| Average Annual Salary | [Average yearly wage (USD PPP) reported by the OECD.] | [Enables salary comparisons across countries] |
+| `[Cost of living index]` | [Relative cost of living compared with New York City (NYC = 100)] | [Indicates how expensive it is to live in each country] |
+| `[Local Purchasing Power Index]` | [Relative purchasing power compared with New York City (NYC = 100)] | [Measures how much residents can afford with local incomes] |
+| [Salary-to-Cost Ratio] | [Custom metric calculated as Average Annual Salary / Cost of living index] | [Provides a simple comparison of salaries relative to living costs]|
+|Salary-to-Cost Rank| [Ranking countries based on Salary-to-Cost Ratio] | [Identifies countries where salaries appear strongest relative to living costs] |
 
 ### Methods Used
 
