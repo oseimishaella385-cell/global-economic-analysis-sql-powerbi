@@ -310,6 +310,11 @@ The diagram below illustrates the relationship between the OECD salary dataset, 
 -->
 
 ### Analytical Approach
+This project followed an analytical approach to investigate whether average annual salaries keep pace with the cost of living across countries. Rather than testing a predefined hypothesis, the analysis explored relationships among Salary, living costs, and purchasing power to identify patterns in global affordability.
+
+The initial assumption was that countries with a higher salaries would also achieve higher Salary-to-Cost Rattion, as greated earnings were expected to offset higher living costs. Conversely, ountries with lower salaries and higher living costs were expected to produce lower Salary-to-Cost Ratios. 
+
+The second assumption was that countries with a higher local purchasing Power Index would ge
 
 [Describe how you approached the analysis. Were you exploring patterns? Testing a hypothesis? Building and validating a pipeline? Be honest about your method - exploratory work is valid, just call it that.]
 
@@ -317,13 +322,14 @@ The diagram below illustrates the relationship between the OECD salary dataset, 
 
 | Metric | Plain-Language Definition | Why It Matters |
 |--------|--------------------------|----------------|
-| Average Annual Salary | [Average yearly wage (USD PPP) reported by the OECD.] | [Enables salary comparisons across countries] |
-| `[Cost of living index]` | [Relative cost of living compared with New York City (NYC = 100)] | [Indicates how expensive it is to live in each country] |
-| `[Local Purchasing Power Index]` | [Relative purchasing power compared with New York City (NYC = 100)] | [Measures how much residents can afford with local incomes] |
-| [Salary-to-Cost Ratio] | [Custom metric calculated as Average Annual Salary / Cost of living index] | [Provides a simple comparison of salaries relative to living costs]|
-|Salary-to-Cost Rank| [Ranking countries based on Salary-to-Cost Ratio] | [Identifies countries where salaries appear strongest relative to living costs] |
+| '[Average Annual Salary]' | Average yearly wage (USD PPP) reported by the OECD. | Enables salary comparisons across countries |
+| `[Cost of living index]` | Relative cost of living compared with New York City (NYC = 100) | Indicates how expensive it is to live in each country |
+| `[Local Purchasing Power Index]` | Relative purchasing power compared with New York City (NYC = 100) | Measures how much residents can afford with local incomes |
+| '[Salary-to-Cost Ratio]' | Custom metric calculated as Average Annual Salary / Cost of living index | Provides a simple comparison of salaries relative to living costs|
+|'[Salary-to-Cost Rank]'| Ranking countries based on Salary-to-Cost Ratio | Identifies countries where salaries appear strongest relative to living costs |
 
 ### Methods Used
+
 
 - [e.g., Descriptive statistics - distribution, central tendency, outlier detection]
 - [e.g., Trend analysis across [time period]]
@@ -337,36 +343,31 @@ The diagram below illustrates the relationship between the OECD salary dataset, 
 ## 9. Key Insights
 
 <!--
-  Findings + implications. Not just what happened - what it means.
+ 
+-->Insight 1 — Higher salaries often coincide with higher living costs
 
-  WHAT GOOD LOOKS LIKE:
-  ✅ "Return rates, not sales volume, explain Region A's underperformance.
-      Region A's return rate on home goods was 34% - more than double the
-      company average. Revenue was not lost at the point of sale; it was
-      lost post-sale through refunds. This points to a fulfilment or
-      product quality issue specific to that region, not a demand problem."
+Six of the ten countries with the highest average annual salaries also appeared among the ten countries with the highest Cost of Living Indexes, including Iceland, the United States, Switzerland, Denmark, Austria and Norway. This suggests that higher salaries are often accompanied by higher living expenses, meaning higher income alone does not necessarily improve affordability.
 
-  WHAT TO AVOID:
-  ❌ "Region A had lower revenue than other regions in Q4."
-     (That's an observation. It describes what happened.
-      An insight says what it means and where to look next.)
+Among the ten most expensive countries, nine had a Cost of Living Index at least 17% lower than New York City (NYC = 100). Switzerland was the only exception, recording a Cost of Living Index of 101.1, making it approximately 1% more expensive than New York City.
 
-  Aim for 3–6 insights. Quality over quantity.
--->
+This indicates that comparing salaries in isolation can give a misleading picture of affordability. Cost of living should be considered alongside income when comparing countries, as higher wages are often offset by higher everyday expenses.
 
-**Insight 1: [Short descriptive headline]**
-[What you found + what it suggests. One short paragraph.]
+Insight 2 — The custom Salary-to-Cost Ratio identified countries offering the strongest salary relative to living costs
 
-**Insight 2: [Short descriptive headline]**
-[What you found + what it suggests.]
+The custom Salary-to-Cost Ratio identified Luxembourg as the highest-ranking country, with a ratio of 1,561.89, followed by Turkey. Although Luxembourg did not have the highest average annual salary, its combination of a high salary ($97,462.05 USD PPP) and a comparatively lower Cost of Living Index (62.4) resulted in the strongest Salary-to-Cost Ratio. This demonstrates that countries with lower living costs can outperform countries with higher salaries when salaries are evaluated relative to living costs rather than income alone.
 
-**Insight 3: [Short descriptive headline]**
-[What you found + what it suggests.]
+This highlights the value of using comparative metrics rather than salary alone when assessing affordability, as countries with slightly lower salaries may provide residents with better overall value for money.
 
-**Insight 4 (if applicable): [Short descriptive headline]**
-[What you found + what it suggests.]
+Insight 3 — Higher salaries do not always correspond to higher purchasing power
+
+Switzerland recorded the third-highest average annual salary ($92,160.55 USD PPP) and the second-highest Local Purchasing Power Index (158.7), despite having the highest Cost of Living Index (101.1) in the dataset. This indicates that residents have strong purchasing power even though Switzerland is one of the world's most expensive countries to live in.
+
+Conversely, Turkey ranked second using the custom Salary-to-Cost Ratio but recorded one of the lowest Local Purchasing Power Index values (49.0). This suggests that purchasing power is influenced by factors beyond average salary and cost of living alone. While the custom Salary-to-Cost Ratio provides a useful comparison between salaries and living costs, it does not fully capture the broader economic factors that influence real affordability.
+
+This demonstrates that affordability should be assessed using multiple economic indicators rather than a single metric. Combining salary, cost of living and purchasing power provides a more balanced and realistic assessment of how far income is likely to stretch in different countries
 
 ---
+
 
 ## 10. Recommendations
 
@@ -391,9 +392,9 @@ The diagram below illustrates the relationship between the OECD salary dataset, 
 
 | Priority | Recommendation | Based On | Suggested Owner |
 |----------|---------------|----------|-----------------|
-| High | [Specific, actionable step] | [Insight it comes from] | [Who should act] |
-| Medium | [Specific, actionable step] | [Insight it comes from] | [Who should act] |
-| Low | [Exploratory or longer-term suggestion] | [Insight it comes from] | [Who should act] |
+| High | Evaluate affordabilty using multiple indicators (salary, cost of living and purchasing power) rather than salary alone when comparing countries | Insight 3 - Higher Salaries do not always correspond to higher purchasing power |Analysts|
+| Medium | Use the custom Salary-to-Cost Ratio as an initial screening too to identify countries where salaries appear to offer strong value, then validate findings using Purchasing Power Index data | Insight 2 - The custom Salary-to ratio identified different "best value" countries| Data Analysts |
+| Low | Expand the analysis by incorporating additional variables such as housing costs, taxation, disposable income and inflation to produce a more comprehensive affordability measure.| Insights 1-3 |Future Project/Researchers|
 
 ---
 
