@@ -204,11 +204,11 @@ The second assumption was that countries with a higher local Purchasing Power In
 
 | Metric | Plain-Language Definition | Why It Matters |
 |--------|--------------------------|----------------|
-| '[Average Annual Salary]' | Average yearly wage (USD PPP) reported by the OECD. | Enables salary comparisons across countries |
-| `[Cost of living index]` | Relative cost of living compared with New York City (NYC = 100) | Indicates how expensive it is to live in each country |
-| `[Local Purchasing Power Index]` | Relative purchasing power compared with New York City (NYC = 100) | Measures how much residents can afford with local incomes |
-| '[Salary-to-Cost Ratio]' | Custom metric calculated as Average Annual Salary / Cost of living index | Provides a simple comparison of salaries relative to living costs|
-|'[Salary-to-Cost Rank]'| Ranking countries based on Salary-to-Cost Ratio | Identifies countries where salaries appear strongest relative to living costs |
+| Average Annual Salary | Average yearly wage (USD PPP) reported by the OECD. | Enables salary comparisons across countries |
+| Cost of living index | Relative cost of living compared with New York City (NYC = 100) | Indicates how expensive it is to live in each country |
+| Local Purchasing Power Index | Relative purchasing power compared with New York City (NYC = 100) | Measures how much residents can afford with local incomes |
+| Salary-to-Cost Ratio | Custom metric calculated as Average Annual Salary / Cost of living index | Provides a simple comparison of salaries relative to living costs|
+| Salary-to-Cost Rank | Ranking countries based on Salary-to-Cost Ratio | Identifies countries where salaries appear strongest relative to living costs |
 
 ### Methods Used
 **SQL INNER JOIN** – Combined the salary and cost of living datasets.
@@ -285,10 +285,13 @@ This demonstrates that affordability should be assessed using multiple economic 
 ---
 
 ## 12. Future Enhancements
-- [ ] [Enhancement 1 - Expand the analysis to multiple years, preferably (2021-2025), to examine how salaries, cost of living and purchasing power have changed over time and identify long-term affordability trends. ]
-- [ ] [Enhancement 2 - Preferably replace average annual salary with median annual salary as a median income is less affected by extremely high earners and provides a representative measure of typical workers' earnings]
-- [ ] [Enhancement 3 - Incorporate an additional affordability measure such as income tax or housing]
-- [ ] [Enhancement 4- Extend the analysis to city- level data, which would allow for affordability comparisons within countries rather than relying solely on national averages]
+**Enhancement 1** - Expand the analysis to multiple years, preferably (2021-2025), to examine how salaries, cost of living and purchasing power have changed over time and identify long-term affordability trends.
+
+**Enhancement 2** - Preferably replace average annual salary with median annual salary, as a median income is less affected by extremely high earners and provides a representative measure of typical workers' earnings
+
+**Enhancement 3** - Incorporate an additional affordability measure such as income tax or housing
+
+**Enhancement 4** - Extend the analysis to city- level data, which would allow for affordability comparisons within countries rather than relying solely on national averages
 
 ---
 
@@ -310,7 +313,7 @@ This demonstrates that affordability should be assessed using multiple economic 
 ## 14. Author
 
 **[Mishaella Osei]**
-[Your role or title - current or target]
+[Aspiring Data Analyst]
 
 - 🔗 [www.linkedin.com/in/mishaella-osei-1510mo]
 - 💼 []
