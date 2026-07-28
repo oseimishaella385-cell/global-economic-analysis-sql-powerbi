@@ -46,7 +46,7 @@ Approach:
 Datasets from the OECD and Numbeo were reviewed and consolidated into a single analytical dataset using SQL (MySQL). I then developed an interactive Power BI dashboard to compare countries using salary, cost of living, purchasing power, and a custom Salary Value Score to evaluate overall affordability.
 
 Outcome:
-The analysis showed that countries with the highest salaries were not always the most affordable. Using the Salary Value Score, the project identified [Top Country] as offering one of the strongest balances between salary and living costs, demonstrating that affordability depends on both income and the cost of goods and services rather than salary alone.
+The analysis showed that countries with the highest salaries were not always the most affordable. Using the Salary Value Score, the project identified Luxembourg as offering one of the strongest balances between salary and living costs, demonstrating that affordability depends on both income and the cost of goods and services rather than salary alone.
 
 ---
 
@@ -72,10 +72,7 @@ The analysis showed that countries with the highest salaries were not always the
 
 ### Tools & Technologies
 
-<!--
-  List only what you actually used on this project.
-  This is not your skills section - it's the project's technical context.
--->
+  
 
 | Category | Tool(s) Used |
 |----------|-------------|
@@ -114,6 +111,7 @@ The analysis showed that countries with the highest salaries were not always the
 ---
 
 ## 5. Data Workflow
+```
 Data Sources
       ↓
 Ingestion (MySQL)
@@ -123,24 +121,18 @@ Cleaning & Transformation (SQL)
 Analysis (SQL + Power BI)
       ↓
 Dashboard & Documentation
-
-
 ```
-**Source:** Two publicly available datasets were used: the OECD Average Annual Wages dataset and the Numbeo Cost of Living Index dataset. Both datasets were downloaded as CSV files and contain country-level data for 2024.
+1. **Source:** Two publicly available datasets were used: the OECD Average Annual Wages dataset and the Numbeo Cost of Living Index dataset. Both datasets were downloaded as CSV files and contain country-level data for 2024
+2. **Ingestion:** Both CSV files were imported into MYSQL, creating two relational tables (Salaries and cost_of_living) that serve as the project's primary data sources.
+3. **Cleaning:** Prepared the OECD salary dataset by filtering to 2024 data, retaining only salaries reported in USD (PPP adjusted) with the required price base and removing duplicate country records. Removed aggregate and regional records that did not represent individual countries, as these could not be matched with the country-level Cost of Living dataset.
+4. **Transformation:** Created views to prepare the data for analysis. Developed a custom Salary Value Score, Salary Value Rank, and Salary Value Category, grouping countries into quartiles based on affordability using SQL window functions.
+5. **Analysis:** Query-based and descriptive statistical analysis using SQL joins, aggregate functions, CTEs, window functions, and Power BI visualisations to identify affordability trends, rank countries, and compare salary, cost of living, and purchasing power.
+6. **Output:** Interactive Power BI dashboard, SQL scripts, and project documentation (README).
 
-**Ingestion:** Both CSV files were imported into MYSQL, creating two relational tables (Salaries and cost_of_living) that serve as the project's primary data sources.
-
-**Cleaning:** Prepared the OECD salary dataset by filtering to 2024 data, retaining only salaries reported in USD (PPP adjusted) with the required price base and removing duplicate country records. Removed aggregate and regional records that did not represent individual countries, as these could not be matched with the country-level Cost of Living dataset.
-
-**Transformation:** Created views to prepare the data for analysis. Developed a custom Salary Value Score, Salary Value Rank, and Salary Value Category, grouping countries into quartiles based on affordability using SQL window functions.
-
-**Analysis:** Query-based and descriptive statistical analysis using SQL joins, aggregate functions, CTEs, window functions, and Power BI visualisations to identify affordability trends, rank countries, and compare salary, cost of living, and purchasing power.
-
-**Output:** Interactive Power BI dashboard, SQL scripts, and project documentation (README).
 ---
 
-
 ## 6. Data Model & Schema
+
 ### Dataset / Table: `Cost_of_living`
 ---
 | Field Name | Data Type | Description | Example Value |
