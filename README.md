@@ -114,6 +114,7 @@ The analysis showed that countries with the highest salaries were not always the
 └── README.md                 # You are here
 ```
 
+---
 
 ## 5. Data Workflow
 
@@ -127,6 +128,8 @@ The analysis showed that countries with the highest salaries were not always the
 [Analysis]
       ↓
 [Output]
+
+
 ```
 Source: Two publicly available datasets were used: the OECD Average Annual Wages dataset and the Numbeo Cost of Living Index dataset. Both datasets were downloaded as CSV files and contain country-level data for 2024.
 
