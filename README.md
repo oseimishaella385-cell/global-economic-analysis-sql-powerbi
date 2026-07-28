@@ -114,17 +114,15 @@ The analysis showed that countries with the highest salaries were not always the
 ---
 
 ## 5. Data Workflow
----
-
-[Data Source(s)]
+Data Sources
       ↓
-[Ingestion ]
+Ingestion (MySQL)
       ↓
-[Cleaning & Transformation]
+Cleaning & Transformation (SQL)
       ↓
-[Analysis]
+Analysis (SQL + Power BI)
       ↓
-[Output]
+Dashboard & Documentation
 
 
 ```
