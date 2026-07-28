@@ -75,7 +75,7 @@ The analysis showed that countries with the highest salaries were not always the
 |----------|-------------|
 | Data Storage | CSV files |
 | Data Processing |  SQL, Excel |
-| Analysis |  custom SQL queries |
+| Analysis |  Custom SQL queries |
 | Visualization | Power BI |
 | Version Control |  GitHub |
 | Documentation | Markdown |
