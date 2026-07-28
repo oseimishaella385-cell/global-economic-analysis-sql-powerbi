@@ -126,17 +126,17 @@ Dashboard & Documentation
 
 
 ```
-Source: Two publicly available datasets were used: the OECD Average Annual Wages dataset and the Numbeo Cost of Living Index dataset. Both datasets were downloaded as CSV files and contain country-level data for 2024.
+**Source:** Two publicly available datasets were used: the OECD Average Annual Wages dataset and the Numbeo Cost of Living Index dataset. Both datasets were downloaded as CSV files and contain country-level data for 2024.
 
-Ingestion: Both CSV files were imported into MYSQL, creating two relational tables (Salaries and cost_of_living) that serve as the project's primary data sources.
+**Ingestion:** Both CSV files were imported into MYSQL, creating two relational tables (Salaries and cost_of_living) that serve as the project's primary data sources.
 
-Cleaning: Prepared the OECD salary dataset by filtering to 2024 data, retaining only salaries reported in USD (PPP adjusted) with the required price base and removing duplicate country records. Removed aggregate and regional records that did not represent individual countries, as these could not be matched with the country-level Cost of Living dataset.
+**Cleaning:** Prepared the OECD salary dataset by filtering to 2024 data, retaining only salaries reported in USD (PPP adjusted) with the required price base and removing duplicate country records. Removed aggregate and regional records that did not represent individual countries, as these could not be matched with the country-level Cost of Living dataset.
 
-Transformation: Created views to prepare the data for analysis. Developed a custom Salary Value Score, Salary Value Rank, and Salary Value Category, grouping countries into quartiles based on affordability using SQL window functions.
+**Transformation:** Created views to prepare the data for analysis. Developed a custom Salary Value Score, Salary Value Rank, and Salary Value Category, grouping countries into quartiles based on affordability using SQL window functions.
 
-Analysis: Query-based and descriptive statistical analysis using SQL joins, aggregate functions, CTEs, window functions, and Power BI visualisations to identify affordability trends, rank countries, and compare salary, cost of living, and purchasing power.
+**Analysis:** Query-based and descriptive statistical analysis using SQL joins, aggregate functions, CTEs, window functions, and Power BI visualisations to identify affordability trends, rank countries, and compare salary, cost of living, and purchasing power.
 
-Output: Interactive Power BI dashboard, SQL scripts, and project documentation (README).
+**Output:** Interactive Power BI dashboard, SQL scripts, and project documentation (README).
 ---
 
 
@@ -311,8 +311,8 @@ This demonstrates that affordability should be assessed using multiple economic 
 ## 13. Deliverables
 
 
-| Deliverable               | Description                                                                                | Location                               |
-| ------------------------- | ------------------------------------------------------------------------------------------ | -------------------------------------- |
+| Deliverable               | Description                                                                                | Location  |
+
 | **README.md**             | Project overview, methodology, analysis, findings, recommendations and documentation.      | `/README.md`                           |
 
 | **SQL Scripts**           | SQL scripts used for data cleaning, transformation, view creation and analytical queries.  | `/sql/`                                |
