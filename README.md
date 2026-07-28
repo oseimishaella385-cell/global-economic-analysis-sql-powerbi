@@ -53,9 +53,11 @@ The analysis showed that countries with the highest salaries were not always the
 ## 2. Objectives
 
 
+
 - **Primary Objective:** To assess whether average annual salaries keep pace with the cost of living across countries
 - **Secondary Objective 1:** Identify which top 5 countries offer the best balance between average annual salary and cost of living by developing a custom Salary Value Score.
 - **Secondary Objective 2:** Do countries with higher average salaries also have higher local purchasing power?
+
 ---
 
 ## 3. Project Scope & Tools
@@ -68,6 +70,8 @@ The analysis showed that countries with the highest salaries were not always the
 | **Out of Scope** | City-level comparisons, restaurant index, historical trend analysis, taxation and countries and years not available in both datasets. |
 | **Time Period** | 2024 |
 | **Granularity** | Country level analysis  |
+
+---
 
 ### Tools & Technologies
 
@@ -197,6 +201,8 @@ The diagram below illustrates the relationship between the OECD salary dataset, 
 | `cost_of_living` ↔ `salaries_2024` | `cost_of_living.Country = Salaries_2024.ReferenceArea` | one-to-One |
 | Country_analysis| created from an inner join of cost_of_living and salaries_2024 | SQL View |
 
+---
+
 
 ## 8. Analysis & Metrics
 
@@ -282,6 +288,8 @@ This demonstrates that affordability should be assessed using multiple economic 
 - The Cost of Living Index and Local Purchasing Power Index are comparable across countries. The analysis accepts Numbeo's methodology, where New York City = 100, as a consistent benchmark for international comparisons.
 
 - The custom Salary-to-Cost Ratio is treated as a comparative indicator rather than a measure of actual disposable income. It assumes that dividing average salary by the Cost of Living Index provides a useful way to compare countries, while recognising that it does not capture every aspect of affordability.
+
+---
 
 ### Limitations
 
