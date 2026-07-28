@@ -211,13 +211,13 @@ The second assumption was that countries with a higher local Purchasing Power In
 |'[Salary-to-Cost Rank]'| Ranking countries based on Salary-to-Cost Ratio | Identifies countries where salaries appear strongest relative to living costs |
 
 ### Methods Used
-SQL INNER JOIN – Combined the salary and cost of living datasets.
-Data filtering – Selected 2024 observations and USD (PPP) salary values.
-Data cleaning – Standardised country names and removed unmatched records.
-Calculated metric – Created a custom Salary-to-Cost Ratio (salary/cost of living index) to compare salary against living costs.
-SQL Window Functions – Used RANK() to rank countries and NTILE() to group countries into affordability quartiles.
-Comparative analysis – Compared salary, cost of living and purchasing power across countries.
-Power BI visualisation – Presented findings using interactive charts and maps
+**SQL INNER JOIN** – Combined the salary and cost of living datasets.
+**Data filtering** – Selected 2024 observations and USD (PPP) salary values.
+**Data cleaning** – Standardised country names and removed unmatched records.
+**Calculated metric** – Created a custom Salary-to-Cost Ratio (salary/cost of living index) to compare salary against living costs.
+**SQL Window Functions** – Used RANK() to rank countries and NTILE() to group countries into affordability quartiles.
+**Comparative analysis**– Compared salary, cost of living and purchasing power across countries.
+**Power BI visualisation** – Presented findings using interactive charts and maps
 
 ---
 
