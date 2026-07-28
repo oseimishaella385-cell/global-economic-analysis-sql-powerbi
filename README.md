@@ -142,7 +142,7 @@ Dashboard & Documentation
 
 ## 6. Data Model & Schema
 ### Dataset / Table: `Cost_of_living`
-
+---
 | Field Name | Data Type | Description | Example Value |
 |------------|-----------|-------------|---------------|
 | Country | VARCHAR| Country name used to join datasets | Australia |
@@ -152,7 +152,7 @@ Dashboard & Documentation
 > **Row count (approx.):** 122 Rows
 > **Date range:** 2024
 > **Key join / relationship:** cost_of_living.Country → salaries_2024.ReferenceArea
-
+---
 ### Dataset / Table: Salaries_2024
 
 | Field Name | Data Type | Description | Example Value |
@@ -173,7 +173,7 @@ Dashboard & Documentation
 |------------|-----------|-------------|---------------|
 | Country | VARCHAR| Country name | Australia |
 | Average_Annual_Salary_USD | DECIMAL | Average annual salary (USD PPP adjusted) | 71238.24 |
-| Cost of living Index | DECIMAL |  cost of living index (NYC = 100) | 70.20 |
+| Cost of living Index | DECIMAL | cost of living index (NYC = 100) | 70.20 |
 | Local Purchasing Power Index | DECIMAL | local purchasing power index (NYC = 100) | 127.40 |
 | Salary Value Score | Decimal | Salary divided by Cost of Living Index | 1014.79 |
 | Salary Value Rank | INT | Ranking based on Salary Value Score | 20 |
