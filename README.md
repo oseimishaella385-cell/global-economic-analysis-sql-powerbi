@@ -140,7 +140,7 @@ Analysis: Query-based and descriptive statistical analysis using SQL joins, aggr
 
 Output: Interactive Power BI dashboard, SQL scripts, and project documentation (README).
 
----
+
 
 ## 6. Data Model & Schema
 ### Dataset / Table: `Cost_of_living`
