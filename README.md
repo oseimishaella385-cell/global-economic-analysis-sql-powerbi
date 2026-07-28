@@ -51,9 +51,6 @@ The analysis showed that countries with the highest salaries were not always the
 ---
 
 ## 2. Objectives
-
-
-
 - **Primary Objective:** To assess whether average annual salaries keep pace with the cost of living across countries
 - **Secondary Objective 1:** Identify which top 5 countries offer the best balance between average annual salary and cost of living by developing a custom Salary Value Score.
 - **Secondary Objective 2:** Do countries with higher average salaries also have higher local purchasing power?
