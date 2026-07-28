@@ -1,18 +1,15 @@
 # Which Countries Offer the Best Value? A Global Salary and Cost of Living Analysis
-> *One sentence. What did you analyze, build, or solve - and why does it matter?*
+>This project combines OECD salary data with Numbeo cost of living data to evaluate global affordability by comparing average annual salaries, living costs and purchasing power, using SQL and Power BI to identify which countries offer the greatest value.
 
 ---
 
 ## ⚙️ Project Type Flags
-> *Check what applies. This helps reviewers and collaborators understand the nature of the work at a glance. Delete this block before publishing.*
 
-- [ ] Exploratory Data Analysis (EDA)
-- [ ] SQL Analysis / Querying
-- [ ] Dashboard / Data Visualization
-- [ ] Data Pipeline / ETL
-- [ ] Predictive Modelling / Machine Learning
-- [ ] Data Cleaning / Wrangling
-- [ ] End-to-End (multiple of the above)
+- [x] Exploratory Data Analysis (EDA)
+- [x] SQL Analysis / Querying
+- [x] Dashboard / Data Visualization
+- [x] Data Cleaning / Wrangling
+- [x] End-to-End (multiple of the above)
 
 
 ---
