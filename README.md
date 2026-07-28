@@ -48,6 +48,8 @@ Datasets from the OECD and Numbeo were reviewed and consolidated into a single a
 Outcome:
 The analysis showed that countries with the highest salaries were not always the most affordable. Using the Salary Value Score, the project identified [Top Country] as offering one of the strongest balances between salary and living costs, demonstrating that affordability depends on both income and the cost of goods and services rather than salary alone.
 
+---
+
 ## 2. Objectives
 
 
