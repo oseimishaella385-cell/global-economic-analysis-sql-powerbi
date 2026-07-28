@@ -137,7 +137,7 @@ Transformation: Created views to prepare the data for analysis. Developed a cust
 Analysis: Query-based and descriptive statistical analysis using SQL joins, aggregate functions, CTEs, window functions, and Power BI visualisations to identify affordability trends, rank countries, and compare salary, cost of living, and purchasing power.
 
 Output: Interactive Power BI dashboard, SQL scripts, and project documentation (README).
-
+---
 
 
 ## 6. Data Model & Schema
