@@ -416,7 +416,6 @@ This demonstrates that affordability should be assessed using multiple economic 
 -->
 
 ### Assumptions
--
 - The OECD and Numbeo datasets accurately represent 2024 conditions. The analysis assumes both data sources provide reliable and comparable measures of average annual salaries, cost of living, and purchasing power for each country.
 
 - Average annual salary is representative of a country's workforce. The analysis assumes that the reported average salary is an appropriate measure for comparing countries, despite differences in income distribution, occupations, and regional wage variation.
@@ -429,7 +428,7 @@ This demonstrates that affordability should be assessed using multiple economic 
 
 ### Limitations
 
-- The analysis was limited to countries available in both the OECD salary dataset and the Numbeo Cost of Living dataset. Countries that could not be matched between the two sources were excluded from the analysis, reducing the overall sample size. In addition, the usage of 2024 data only means changes in salaries over time were not captured; therefore, there was not a chance to identify long-term trends. 
+- The analysis was limited to countries available in both the OECD salary dataset and the Numbeo Cost of Living dataset. Countries that could not be matched between the two sources were excluded from the analysis, reducing the overall sample size. In addition, the use of 2024 data only means changes in salaries over time were not captured; therefore, there was not a chance to identify long-term trends. 
 - The analysis used national average salaries, which can be limiting as average salaries do not reflect differences in income distribution, occupations or regions within each country.
 
 - The custom Salary-to-Cost Ratio is a simplified affordability measure. Although it provides useful comparisons between salaries and  cost for all countries, it does not account for additional factors, e.g. taxation, housing affordability, healthcare costs or even social benefits. This was observed with Switzerland, which ranked  relatively low using the custom ratio despite have on of the highest Local Purchasing Power Index values.
@@ -447,12 +446,6 @@ This demonstrates that affordability should be assessed using multiple economic 
 ---
 
 ## 13. Deliverables
-
-| Deliverable | Description | Location |
-|-------------|-------------|----------|
-| [Name] | [What it contains] | [`/path/to/file`] |
-| [Name] | [What it contains] | [`/path/to/file`] |
-| [Name] | [What it contains] | [`/path/to/file`] |
 
 
 | Deliverable               | Description                                                                                | Location                               |
