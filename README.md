@@ -416,39 +416,33 @@ This demonstrates that affordability should be assessed using multiple economic 
 -->
 
 ### Assumptions
-- [What did you treat as true without being able to verify?]
-- [What simplifications did you make for scope or feasibility?]
-- [What domain rules or definitions did you accept as given?]
+-
+- The OECD and Numbeo datasets accurately represent 2024 conditions. The analysis assumes both data sources provide reliable and comparable measures of average annual salaries, cost of living, and purchasing power for each country.
+
+- Average annual salary is representative of a country's workforce. The analysis assumes that the reported average salary is an appropriate measure for comparing countries, despite differences in income distribution, occupations, and regional wage variation.
+
+- Salary values reported in USD (PPP adjusted) provide a fair basis for comparison. Using Purchasing Power Parity (PPP) assumes that differences in exchange rates and price levels have already been accounted for, making salaries comparable across countries.
+
+- The Cost of Living Index and Local Purchasing Power Index are comparable across countries. The analysis accepts Numbeo's methodology, where New York City = 100, as a consistent benchmark for international comparisons.
+
+- The custom Salary-to-Cost Ratio is treated as a comparative indicator rather than a measure of actual disposable income. It assumes that dividing average salary by the Cost of Living Index provides a useful way to compare countries, while recognising that it does not capture every aspect of affordability.
 
 ### Limitations
-- [What gaps exist in the data?]
-- [What analysis was out of scope but could affect interpretation?]
-- [What would a more rigorous version of this project include?]
-- [Are there known biases in the data source or collection method?]
 
-> *The goal here is pre-emptive Q&A. What would a thoughtful skeptic push back on? Document the answer here, before they ask.*
+- The analysis was limited to countries available in both the OECD salary dataset and the Numbeo Cost of Living dataset. Countries that could not be matched between the two sources were excluded from the analysis, reducing the overall sample size. In addition, the usage of 2024 data only means changes in salaries over time were not captured; therefore, there was not a chance to identify long-term trends. 
+- The analysis used national average salaries, which can be limiting as average salaries do not reflect differences in income distribution, occupations or regions within each country.
+
+- The custom Salary-to-Cost Ratio is a simplified affordability measure. Although it provides useful comparisons between salaries and  cost for all countries, it does not account for additional factors, e.g. taxation, housing affordability, healthcare costs or even social benefits. This was observed with Switzerland, which ranked  relatively low using the custom ratio despite have on of the highest Local Purchasing Power Index values.
+
+- The cost of living index is a relative index rather than a direct measure of expenditure. Dividing salary by the Cost of Living Index creates a comparative indicator rather than a true measure of how much disposable income residents have after essential living expenses.
 
 ---
 
 ## 12. Future Enhancements
-
-<!--
-  WHAT GOOD LOOKS LIKE:
-  ✅ "Automate the monthly data pull from the POS export folder using
-      a scheduled Python script, replacing the current manual process."
-  ✅ "Expand the return rate analysis to include carrier-level data,
-      which was unavailable in this dataset but exists in the logistics system."
-
-  WHAT TO AVOID:
-  ❌ "Add a machine learning model."
-     (Vague, and disconnected from the actual findings of this project.)
-  ❌ Listing aspirational features that don't follow logically from the work.
--->
-
-- [ ] [Enhancement 1 - specific and traceable to a real gap in this project]
-- [ ] [Enhancement 2]
-- [ ] [Enhancement 3]
-- [ ] [Enhancement 4]
+- [ ] [Enhancement 1 - Expand the analysis to multiple years, preferably (2021-2025), to examine how salaries, cost of living and purchasing power have changed over time and identify long-term affordability trends. ]
+- [ ] [Enhancement 2 - Preferably replace average annual salary with median annual salary as a median income is less affected by extremely high earners and provides a representative measure of typical workers' earnings]
+- [ ] [Enhancement 3 - Incorporate an additional affordability measure such as income tax or housing]
+- [ ] [Enhancement 4- Extend the analysis to city- level data, which would allow for affordability comparisons within countries rather than relying solely on national averages]
 
 ---
 
@@ -459,6 +453,17 @@ This demonstrates that affordability should be assessed using multiple economic 
 | [Name] | [What it contains] | [`/path/to/file`] |
 | [Name] | [What it contains] | [`/path/to/file`] |
 | [Name] | [What it contains] | [`/path/to/file`] |
+
+
+| Deliverable               | Description                                                                                | Location                               |
+| ------------------------- | ------------------------------------------------------------------------------------------ | -------------------------------------- |
+| **README.md**             | Project overview, methodology, analysis, findings, recommendations and documentation.      | `/README.md`                           |
+| **Power BI Dashboard**    | Interactive dashboard visualising salary, cost of living and purchasing power comparisons. | `/dashboard/Global_Affordability.pbix` |
+| **SQL Scripts**           | SQL scripts used for data cleaning, transformation, view creation and analytical queries.  | `/sql/`                                |
+| **Raw Datasets**          | Original OECD salary data and Numbeo Cost of Living dataset used for the analysis.         | `/data/raw/`                           |
+| **Processed Dataset**     | Final `country_analysis` dataset used for Power BI visualisations.                         | `/data/processed/`                     |
+| **ERD Diagram**           | Entity Relationship Diagram illustrating the database structure and table relationships.   | `/visuals/erd.png`                     |
+| **Dashboard Screenshots** | Images of the final Power BI dashboard used in the README.                                 | `/visuals/`                            |
 
 ---
 
