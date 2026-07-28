@@ -33,16 +33,16 @@
 ---
 
 ## 1. Project Overview
-Context:
+**Context:**
 In recent years, the increased cost of living has become a significant global issue, making it difficult for many people to maintain their standard of living. This project was motivated by the desire to understand how living costs compare with average annual salaries across different countries, and to explore which countries offer the greatest affordability.
 
-Problem statement:
+**Problem statement:**
 " A high salary does not necessarily mean a better quality of life if the cost of living is also high"
 
-Approach:
+**Approach:**
 Datasets from the OECD and Numbeo were reviewed and consolidated into a single analytical dataset using SQL (MySQL). I then developed an interactive Power BI dashboard to compare countries using salary, cost of living, purchasing power, and a custom Salary Value Score to evaluate overall affordability.
 
-Outcome:
+**Outcome:**
 The analysis showed that countries with the highest salaries were not always the most affordable. Using the Salary Value Score, the project identified Luxembourg as offering one of the strongest balances between salary and living costs, demonstrating that affordability depends on both income and the cost of goods and services rather than salary alone.
 
 ---
@@ -265,7 +265,7 @@ This demonstrates that affordability should be assessed using multiple economic 
 
 - Average annual salary is representative of a country's workforce. The analysis assumes that the reported average salary is an appropriate measure for comparing countries, despite differences in income distribution, occupations, and regional wage variation.
 
-- Salary values reported in USD (PPP adjusted) provide a fair basis for comparison. Using Purchasing Power Parity (PPP) assumes that differences in exchange rates and price levels have already been accounted for, making salaries comparable across countries.
+- Salary values reported in USD (PPP adjusted) provide a fair basis for comparison. Using Purchasing Power Index (PPI) assumes that differences in exchange rates and price levels have already been accounted for, making salaries comparable across countries.
 
 - The Cost of Living Index and Local Purchasing Power Index are comparable across countries. The analysis accepts Numbeo's methodology, where New York City = 100, as a consistent benchmark for international comparisons.
 
