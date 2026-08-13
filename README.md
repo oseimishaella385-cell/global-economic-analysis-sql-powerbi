@@ -336,12 +336,12 @@ The findings demonstrate why salary figures should not be used in isolation when
 
 ## 14. Author
 
-**[Mishaella Osei]**
-[Aspiring Data Analyst]
+**Mishaella Osei**
+Aspiring Data Analyst
 
-- 🔗 [www.linkedin.com/in/mishaella-osei-1510mo]
+- 🔗 www.linkedin.com/in/mishaella-osei-1510mo
 - 💼 []
-- 📧 [Email - Oseimishaella385@gmail.com]
+- 📧 Email - Oseimishaella385@gmail.com
 
 ---
 
