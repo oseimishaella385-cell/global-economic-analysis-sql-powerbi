@@ -255,6 +255,19 @@ Countries were grouped into four categories using SQL's NTILE(4) function based 
 **Power BI visualisation** – Presented findings using interactive charts and maps.
 
 ---
+## 9. Power BI Dashboard**
+
+The interactive Power BI dashboard presents country-level comparisons across Average Annual Salary, Cost of Living Index, Local Purchasing Power Index and Salary Value Score (SVS).
+
+![Global Cost of Living and Salary Analysis Dashboard](visuals/dashboard_overview.png)
+
+### Dashboard Interactivity
+
+The dashboard supports interactive cross-highlighting between visuals, allowing users to explore countries across different Salary Value Score (SVS) quartiles.
+
+The example below shows the **Bottom 25% SVS category** selected. Switzerland is particularly notable because it falls within this category despite recording one of the highest average annual salaries and Local Purchasing Power Index values in the dataset.
+
+![Bottom 25% SVS Dashboard Interaction](visuals/dashboard_bottom25_filtered.png)
 
 ## 9. Key Insights
  
