@@ -270,7 +270,7 @@ For this reason, the Salary Value Score (SVS) should be interpreted as a compara
 
 
 ## 10. Practical Implications
-The findings demonstrate why salary figures should not be used in isolation when comparing economic conditions between countries. For analysts, employers, researchers or individuals considering international relocation, salary comparisons should be evaluated alongside local prices and purchasing power. The SVS can provide an initial screening tool, but countries identified as high-value should subsequently be assessed using purchasing power, taxation, housing costs and disposable income.
+The findings demonstrate why salary figures should not be used in isolation when comparing  affordability across countries. The SVS can be used as an initial comparative indicator, but it should be interpreted alongside Local Purchasing Power and other relevant economic measures when evaluating how far income may stretch across countries.
 
 
 ---
@@ -294,17 +294,23 @@ The findings demonstrate why salary figures should not be used in isolation when
 
 ### Limitations
 
-- Different source methodologies: Salary and cost-of-living measures originate from different organisations and are produced using different methodologies. OECD wage estimates are based on official economic/labour statistics, whereas Numbeo's cost-of-living measures are compiled using its own price-data methodology. Joining these datasets enables useful exploratory comparisons, but the resulting metrics should not be interpreted as official OECD affordability measures.
+ **1) Different source methodologies**
+Salary and cost-of-living measures originate from different organisations and are produced using different methodologies. OECD wage estimates are based on official economic and labour statistics, whereas Numbeo's cost-of-living measures are compiled using its own price-data methodology. Joining these datasets enables useful exploratory comparisons, but the resulting metrics should not be interpreted as official OECD affordability measures.
 
-- PPP adjustment and cost-of-living measurement: OECD salaries used in this analysis are already expressed in PPP-adjusted USD, meaning differences in national price levels are partially incorporated into the salary measure. Dividing a PPP-adjusted salary by a separate Cost of Living Index therefore creates an exploratory comparative score rather than a pure economic measure of affordability. Future analysis could test alternative specifications using nominal/market-exchange-rate income, disposable household income, or median income alongside actual expenditure measures.
+**2) PPP adjustment and cost-of-living measurement**
+OECD salaries used in this analysis are already expressed in PPP-adjusted USD, meaning differences in national price levels are partially incorporated into the salary measure. Dividing a PPP-adjusted salary by a separate Cost of Living Index therefore creates an exploratory comparative score rather than a pure economic measure of affordability.
 
-- The analysis was limited to countries available in both the OECD salary dataset and the Numbeo Cost of Living dataset. Countries that could not be matched between the two sources were excluded from the analysis, reducing the overall sample size. In addition, the use of 2024 data only means changes in salaries over time were not captured; therefore, there was no chance to identify long-term trends. 
+**3) Dataset coverage and time period**
+ The analysis was limited to countries available in both the OECD salary dataset and the Numbeo Cost of Living dataset. Countries that could not be matched between the two sources were excluded, reducing the overall sample size. In addition, the analysis uses 2024 data only and therefore does not capture changes in salaries, living costs or purchasing power over time. 
 
-- The analysis used national average salaries, which can be limiting as average salaries do not reflect differences in income distribution, occupations or regions within each country.
+**4) Use of national average salaries**
+National averages can mask substantial differences in income distribution, occupations and regions within each country. As a result, the reported average salary may not represent the earnings experienced by a typical individual.
 
-- The Salary value score (SVS) is a simplified affordability measure. Although it provides useful comparisons between salaries and  cost for all countries, it does not account for additional factors, e.g. taxation, housing affordability, healthcare costs or even social benefits. This was observed with Switzerland, which ranked  relatively low using the custom ratio despite have on of the highest Local Purchasing Power Index values.
+**5) Scope of the Salary Value Score (SVS)**
+SVS is a simplified comparative indicator based only on annual salary and the Cost of Living Index measure. It does not account for additional factors such as  taxation, housing costs, healthcare costs, social benefits or household composition. Therefore, it should not be interpreted as a complete measure of individual or household affordability.
 
-- The cost of living index is a relative index rather than a direct measure of expenditure. Dividing salary by the Cost of Living Index creates a comparative indicator rather than a true measure of how much disposable income residents have after essential living expenses.
+**6) Cost of Living Index measurement**
+The cost of living index is a relative index rather than a direct measure of expenditure. Dividing salary by the Index therefore produces a comparative indicator rather than an estimate of disposable income remaining after essential living expenses.
 
 ---
 
