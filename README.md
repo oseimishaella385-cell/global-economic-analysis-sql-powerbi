@@ -1,7 +1,7 @@
 # Which Countries Offer the Best Value? A Global Salary and Cost of Living Analysis
 Which countries offer the strongest balance between average salary, cost of living and local purchasing power?
 
->This project combines OECD salary data with Numbeo cost of living data to evaluate global affordability by comparing average annual salaries, living costs and purchasing power, using SQL and Power BI to identify which countries offer the greatest value.
+This project combines OECD salary data with Numbeo cost-of-living data to evaluate global affordability by comparing average annual salaries, living costs, and purchasing power, using SQL and Power BI to identify which countries offer the greatest value.
 
 ---
 
@@ -16,7 +16,7 @@ Which countries offer the strongest balance between average salary, cost of livi
 7. [ERD - Entity Relationship Diagram](#7-erd--entity-relationship-diagram) 
 8. [Analysis & Metrics](#8-analysis--metrics)
 9. [Key Insights](#9-key-insights)
-10. [Power BI Dashboard](#7-power-bi-dashboard)
+10. [Power BI Dashboard](#10-power-bi-dashboard)
 11. [Practical Implications](#10-practical-implications)
 12. [Assumptions & Limitations](#11-assumptions--limitations)
 13. [Future Enhancements](#12-future-enhancements)
@@ -27,7 +27,7 @@ Which countries offer the strongest balance between average salary, cost of livi
 
 ## 1. Project Overview
 **Context:**
-In recent years, the increased cost of living has become a significant global issue, making it difficult for many people to maintain their standard of living. This project was motivated by the desire to understand how living costs compare with average annual salaries across different countries, and to explore which countries offer stronger salary value relative to living costs.
+In recent years, the increased cost of living has become a significant global issue, making it difficult for many people to maintain their standard of living. This project was motivated by the desire to understand how living costs compare with average annual salaries across countries and to explore which countries offer better salary value relative to living costs.
 
 **Problem statement:**
 A high salary does not necessarily translate into greater affordability when the cost of living is also high.
