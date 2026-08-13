@@ -258,24 +258,24 @@ The score should not be interpreted as disposable income, household purchasing p
  
 **Insight 1 — Higher salaries often coincide with higher living costs**
 
-Six of the ten countries with the highest average annual salaries also appeared among the ten countries with the highest Cost of Living Indexes, including Iceland, the United States, Switzerland, Denmark, Austria and Norway. This suggests that higher salaries are often accompanied by higher living expenses, meaning higher income alone does not necessarily improve affordability.
+Six of the ten countries with the highest average annual salaries also appeared among the ten countries with the highest Cost of Living Indexes, including Iceland, the United States, Switzerland, Denmark, Austria and Norway. This suggests that higher salaries are often accompanied by higher living expenses, meaning higher income alone does not necessarily translate into relative living costs.
 
-Among the ten most expensive countries, nine had a Cost of Living Index at least 17% lower than New York City (NYC = 100). Switzerland was the only exception, recording a Cost of Living Index of 101.1, making it approximately 1% more expensive than New York City.
+Among the ten most expensive countries, nine had a Cost of Living Index at least **17% lower than New York City (NYC = 100)**. Switzerland was the only exception, recording a Cost of Living Index of **101.1**, making it approximately **1% more expensive than New York City.**
 
 This indicates that comparing salaries in isolation can give a misleading picture of affordability. Cost of living should be considered alongside income when comparing countries, as higher wages are often offset by higher everyday expenses.
 
 **Insight 2 — The custom Salary Value Score (SVS) identified countries offering the strongest salary relative to living costs**
 
-The Salary Value Score (SVS) identified Luxembourg as the highest-ranking country, with a score of **1,561.89**, followed by Turkey. Although Luxembourg did not have the highest average annual salary, its combination of a high salary ($97,462.05 USD PPP) and a comparatively lower Cost of Living Index (62.4) resulted in the strongest Score. This demonstrates that countries with lower living costs can outperform countries with higher salaries when salaries are evaluated relative to living costs rather than income alone.
+The Salary Value Score (SVS) identified Luxembourg as the highest-ranking country, with a score of **1,561.89**, followed by Turkey. Although Luxembourg did not have the highest average annual salary, its combination of a high salary (**$97,462.05 USD PPP**) and a comparatively lower Cost of Living Index (**62.4**) resulted in the highest SVS. This demonstrates that countries with lower living costs can outperform countries with higher salaries when salaries are evaluated relative to living costs rather than income alone.
 
-This highlights the value of using comparative metrics rather than salary alone when assessing affordability, as countries with slightly lower salaries may provide residents with better overall value for money.
+This highlights the value of using comparative metrics rather than salary alone, as countries with lower salaries may still rank more strongly when income is evaluated relative to living costs.
 
 **Insight 3 — Higher salaries do not always correspond to higher purchasing power**
 Switzerland recorded the third-highest average annual salary **($92,160.55 USD PPP)** and the second-highest Local Purchasing Power Index **(158.7)**, despite having the highest Cost of Living Index **(101.1)** in the dataset. This suggests that high living costs do not necessarily translate into weak purchasing power when income levels are also sufficiently high.
 
 Turkey presents a contrasting result. Although it ranked **second using the custom Salary Value Score (SVS)**, it recorded one of the lowest Local Purchasing Power Index values **(49.0)**. This divergence is analytically important because it shows that the SVS captures a narrower relationship, average salary relative to the Cost of Living Index, rather than overall household affordability or real purchasing power.
 
-Comparing SVS with the Local Purchasing Power Index therefore provides a useful sense-check on the custom metric. Where the two measures produce different rankings, this indicates that other economic factors may be influencing affordability, such as taxation, housing costs, household spending patterns, wage distribution and differences in how local prices affect residents.
+Comparing SVS with the Local Purchasing Power Index therefore provides a useful sense-check on the custom metric. Where the two measures produce different rankings, this suggests that SVS alone does not capture all the other economic factors influencing local purchasing power.
 
 For this reason, the Salary Value Score (SVS) should be interpreted as a comparative screening indicator rather than a standalone measure of affordability. It is useful for identifying countries where average salary appears relatively strong compared with the Cost of Living Index, but it should be considered alongside Local Purchasing Power and other economic indicators.
 
@@ -283,7 +283,7 @@ For this reason, the Salary Value Score (SVS) should be interpreted as a compara
 
 
 ## 10. Practical Implications
-The findings demonstrate why salary figures should not be used in isolation when comparing  affordability across countries. The SVS can be used as an initial comparative indicator, but it should be interpreted alongside Local Purchasing Power and other relevant economic measures when evaluating how far income may stretch across countries.
+The findings demonstrate why salary figures should not be used in isolation when comparing relative affordability across countries. The Salary Value Score (SVS) can be used as an initial comparative indicator, but it should be interpreted alongside the Local Purchasing Power Index and other relevant economic measures when evaluating how far income may stretch across countries.
 
 
 ---
@@ -291,17 +291,24 @@ The findings demonstrate why salary figures should not be used in isolation when
 ## 11. Assumptions & Limitations
 
 ### Assumptions
-- The OECD and Numbeo datasets accurately represent 2024 conditions. The analysis assumes both data sources provide reliable and comparable measures of average annual salaries, cost of living, and purchasing power for each country.
 
-- Average annual salary is representative of a country's workforce. The analysis assumes that the reported average salary is an appropriate measure for comparing countries, despite differences in income distribution, occupations, and regional wage variation.
+**Data reliability**
+The OECD and Numbeo datasets are assumed to provide sufficiently reliable  2024 measures for the purposes of this comparative analysis. 
 
--  PPP-adjusted salary: OECD average annual wages are expressed in USD using Purchasing Power Parity (PPP), improving comparability between countries by accounting for differences in price levels.
+**Average Annual Salary**
+Average annual salary is assumed to provide an appropriate basis for country-level comparison, despite differences in income distribution, occupations, and regional wage variation.
+ 
+**PPP-adjusted salary**
+OECD average annual wages are expressed in USD using Purchasing Power Parity (PPP), improving comparability between countries by accounting for differences in price levels.
 
-- Purchasing Power Index (PPI): The Purchasing Power Index is taken from the Cost of Living dataset and is used as a separate indicator of the relative purchasing power available to residents within each country. In this project, PPI is used alongside the Salary Value Score rather than as part of the SVS calculation.
+**Local Purchasing Power Index (PPI)**
+The Purchasing Power Index is taken from the Numbeo Cost of Living dataset and is used as a separate indicator of the relative local purchasing power. In this project, PPI is used alongside the Salary Value Score (SVS) rather than as part of the SVS calculation. 
 
-- The Cost of Living Index and Local Purchasing Power Index are comparable across countries. The analysis accepts Numbeo's methodology, where New York City = 100, as a consistent benchmark for international comparisons.
+**International index comparison**
+The analysis uses Numbeo's Cost of Living Index and Local Purchasing Power Index, where New York City = 100, as consistent benchmarks for international comparison.
 
-- The custom Salary Value Score is treated as a comparative indicator rather than a measure of actual disposable income. It assumes that dividing average salary by the Cost of Living Index provides a useful way to compare countries, while recognising that it does not capture every aspect of affordability.
+**Salary Value Score (SVS)**
+The custom SVS is treated as a comparative indicator rather than a measure of actual disposable income. The analysis assumes that comparing average salary with the Cost of Living Index provides a useful way to rank countries within this dataset while recognising that SVS does not capture every aspect of affordability.
 
 ---
 
@@ -311,7 +318,7 @@ The findings demonstrate why salary figures should not be used in isolation when
 Salary and cost-of-living measures originate from different organisations and are produced using different methodologies. OECD wage estimates are based on official economic and labour statistics, whereas Numbeo's cost-of-living measures are compiled using its own price-data methodology. Joining these datasets enables useful exploratory comparisons, but the resulting metrics should not be interpreted as official OECD affordability measures.
 
 **2) PPP adjustment and cost-of-living measurement**
-OECD salaries used in this analysis are already expressed in PPP-adjusted USD, meaning differences in national price levels are partially incorporated into the salary measure. Dividing a PPP-adjusted salary by a separate Cost of Living Index therefore creates an exploratory comparative score rather than a pure economic measure of affordability.
+OECD salaries used in this analysis are already expressed in PPP-adjusted USD, meaning differences in national price levels are partially incorporated into the salary measure. Dividing a PPP-adjusted salary by a separate Cost of Living Index therefore creates an exploratory comparative score rather than a direct measure of affordability.
 
 **3) Dataset coverage and time period**
  The analysis was limited to countries available in both the OECD salary dataset and the Numbeo Cost of Living dataset. Countries that could not be matched between the two sources were excluded, reducing the overall sample size. In addition, the analysis uses 2024 data only and therefore does not capture changes in salaries, living costs or purchasing power over time. 
@@ -320,10 +327,10 @@ OECD salaries used in this analysis are already expressed in PPP-adjusted USD, m
 National averages can mask substantial differences in income distribution, occupations and regions within each country. As a result, the reported average salary may not represent the earnings experienced by a typical individual.
 
 **5) Scope of the Salary Value Score (SVS)**
-SVS is a simplified comparative indicator based only on annual salary and the Cost of Living Index measure. It does not account for additional factors such as  taxation, housing costs, healthcare costs, social benefits or household composition. Therefore, it should not be interpreted as a complete measure of individual or household affordability.
+SVS is a simplified comparative indicator based only on average annual salary and the Cost of Living Index. It does not account for additional factors such as taxation, housing costs, healthcare costs, social benefits or household composition. Therefore, it should not be interpreted as a complete measure of individual or household affordability.
 
 **6) Cost of Living Index measurement**
-The cost of living index is a relative index rather than a direct measure of expenditure. Dividing salary by the Index therefore produces a comparative indicator rather than an estimate of disposable income remaining after essential living expenses.
+The Cost of Living Index is a relative index rather than a direct measure of expenditure. Dividing average annual salary by the Index therefore produces a comparative indicator rather than an estimate of disposable income remaining after essential living expenses.
 
 ---
 
