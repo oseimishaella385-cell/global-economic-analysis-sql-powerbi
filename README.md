@@ -125,12 +125,18 @@ Analysis (SQL + Power BI)
       ↓
 Dashboard & Documentation
 ```
-1. **Source:** Two publicly available datasets were used: the OECD Average Annual Wages dataset and the Numbeo Cost of Living Index dataset. Both datasets were downloaded as CSV files and contain country-level data for 2024
-2. **Ingestion:** Both CSV files were imported into MYSQL, creating two relational tables (Salaries and cost_of_living) that serve as the project's primary data sources.
-3. **Cleaning:** Prepared the OECD salary dataset by filtering to 2024 data, retaining only salaries reported in USD (PPP adjusted) with the required price base and removing duplicate country records. Removed aggregate and regional records that did not represent individual countries, as these could not be matched with the country-level Cost of Living dataset.
-4. **Transformation:** Created views to prepare the data for analysis. Developed a custom Salary Value Score, Salary Value Rank, and Salary Value Category, grouping countries into quartiles based on affordability using SQL window functions.
-5. **Analysis:** Query-based and descriptive statistical analysis using SQL joins, aggregate functions, CTEs, window functions, and Power BI visualisations to identify affordability trends, rank countries, and compare salary, cost of living, and purchasing power.
-6. **Output:** Interactive Power BI dashboard, SQL scripts, and project documentation (README).
+1. **Source:** Two publicly available datasets were used: the OECD Average Annual Wages dataset and the Numbeo Cost of Living Index dataset. Both datasets were downloaded as CSV files and contain country-level data for 2024.
+   
+2. **Ingestion:** Both CSV files were imported into MYSQL, creating two relational tables (`Salaries` and `cost_of_living`) that served as the project's primary data sources.
+
+3. **Cleaning:** The OECD salary dataset was prepared by filtering to 2024 observations, retaining salaries reported in USD (PPP-adjusted) with the required price base and removing duplicate country records. Aggregate and regional records that did not represent individual countries were also removed because they could not be matched appropriately with the country-level Cost of Living dataset.
+
+4.  **Transformation:** SQL views were created to prepare the data for analysis. A custom Salary Value Score (SVS), Salary Value Rank, and Salary Value Category were developed, with countries grouped into quartiles based on SVS using SQL window functions.
+
+5.  **Analysis:** Query-based and descriptive statistical analysis was conducted using SQL joins, aggregate functions, CTEs and window functions alongside Power BI visualisations to identify country-level patterns, rank countries by SVS, and compare Average Annual Salary, Cost of Living, and Local Purchasing Power Index (PPI).
+
+6.  **Output:** Interactive Power BI dashboard, SQL scripts, processed datasets and project documentation (README).
+   
 
 ---
 
