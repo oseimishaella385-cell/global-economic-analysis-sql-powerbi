@@ -36,10 +36,10 @@ In recent years, the increased cost of living has become a significant global is
 " A high salary does not necessarily translate into greater affordability when the cost of living is also high."
 
 **Approach:**
-Datasets from the OECD and Numbeo were reviewed and consolidated into a single analytical dataset using SQL (MySQL). I then developed an interactive Power BI dashboard to compare countries using salary, cost of living, purchasing power, and a custom Salary Value Score to evaluate overall affordability.
+Datasets from the OECD and Numbeo were reviewed and consolidated into a single analytical dataset using SQL (MySQL). I then developed an interactive Power BI dashboard to compare countries using Salary, Cost of living, Purchasing Power Index (PPI), and a custom Salary Value Score (SVS) to evaluate overall affordability.
 
 **Outcome:**
-The analysis showed that countries with the highest salaries were not always the most affordable. Using the Salary Value Score, the project identified Luxembourg as offering one of the strongest balances between salary and living costs, demonstrating that affordability depends on both income and the cost of goods and services rather than salary alone.
+The analysis showed that countries with the highest salaries were not always the most affordable. Using the Salary Value Score (SVS), the project identified Luxembourg as offering one of the strongest balances between salary and living costs, demonstrating that affordability depends on both income and the cost of goods and services rather than salary alone.
 
 ---
 
@@ -49,13 +49,15 @@ The analysis showed that countries with the highest salaries were not always the
 - **Secondary Objective 2:** Do countries with higher average salaries also have higher local purchasing power?
 
 **Analytical Questions**
-
 The analysis was structured around four questions:
 
-Which countries report the highest average annual salaries?
-Are countries with higher salaries also more expensive to live in?
-Which countries offer the strongest salary relative to their Cost of Living Index?
-Do countries ranked highly by the custom Salary Value Score also demonstrate strong local purchasing power?
+- Which countries report the highest average annual salaries?
+  
+- Are countries with higher salaries also more expensive to live in?
+  
+- Which countries offer the strongest salary relative to their Cost of Living Index?
+  
+- Do countries ranked highly by the custom Salary Value Score also demonstrate strong local purchasing power?
 ---
 
 ## 3. Project Scope & Tools
@@ -200,9 +202,9 @@ The diagram below illustrates the relationship between the OECD salary dataset, 
 ### Analytical Approach
 This project followed an analytical approach to investigate whether average annual salaries keep pace with the cost of living across countries. Rather than testing a predefined hypothesis, the analysis explored relationships among Salary, living costs, and purchasing power to identify patterns in global affordability.
 
-The initial assumption was that countries with higher salaries would also achieve higher Salary-to-Cost Ratios, as greater earnings were expected to offset higher living costs. Conversely, countries with lower salaries and higher living costs were expected to produce lower Salary-to-Cost Ratios. 
+The initial assumption was that countries with higher salaries would also achieve higher Salary Value Score (SVS), as greater earnings were expected to offset higher living costs. Conversely, countries with lower salaries and higher living costs were expected to produce lower Salary-to-Cost Ratios. 
 
-The second assumption was that countries with a higher local Purchasing Power Index would also achieve higher Salary-to-Cost Ratios, as stronger purchasing power was expected to reflect greater affordability.
+The second assumption was that countries with a higher local Purchasing Power Index would also achieve a higher Salary Value Score (SVS), as stronger purchasing power was expected to reflect greater affordability.
 
 ### Key Metrics Defined
 
@@ -249,20 +251,20 @@ Among the ten most expensive countries, nine had a Cost of Living Index at least
 
 This indicates that comparing salaries in isolation can give a misleading picture of affordability. Cost of living should be considered alongside income when comparing countries, as higher wages are often offset by higher everyday expenses.
 
-**Insight 2 — The custom Salary-to-Cost Ratio identified countries offering the strongest salary relative to living costs**
+**Insight 2 — The custom Salary Value Score (SVS) identified countries offering the strongest salary relative to living costs**
 
-The custom Salary-to-Cost Ratio identified Luxembourg as the highest-ranking country, with a ratio of 1,561.89, followed by Turkey. Although Luxembourg did not have the highest average annual salary, its combination of a high salary ($97,462.05 USD PPP) and a comparatively lower Cost of Living Index (62.4) resulted in the strongest Salary-to-Cost Ratio. This demonstrates that countries with lower living costs can outperform countries with higher salaries when salaries are evaluated relative to living costs rather than income alone.
+The Salary Value Score (SVS) identified Luxembourg as the highest-ranking country, with a score of 1,561.89, followed by Turkey. Although Luxembourg did not have the highest average annual salary, its combination of a high salary ($97,462.05 USD PPP) and a comparatively lower Cost of Living Index (62.4) resulted in the strongest Score. This demonstrates that countries with lower living costs can outperform countries with higher salaries when salaries are evaluated relative to living costs rather than income alone.
 
 This highlights the value of using comparative metrics rather than salary alone when assessing affordability, as countries with slightly lower salaries may provide residents with better overall value for money.
 
 **Insight 3 — Higher salaries do not always correspond to higher purchasing power**
 Switzerland recorded the third-highest average annual salary ($92,160.55 USD PPP) and the second-highest Local Purchasing Power Index (158.7), despite having the highest Cost of Living Index (101.1) in the dataset. This suggests that high living costs do not necessarily translate into weak purchasing power when income levels are also sufficiently high.
 
-Turkey presents a contrasting result. Although it ranked second using the custom Salary Value Score (SVS), it recorded one of the lowest Local Purchasing Power Index values (49.0). This divergence is analytically important because it shows that the SVS captures a narrower relationship—average salary relative to the Cost of Living Index—rather than overall household affordability or real purchasing power.
+Turkey presents a contrasting result. Although it ranked second using the custom Salary Value Score (SVS), it recorded one of the lowest Local Purchasing Power Index values (49.0). This divergence is analytically important because it shows that the SVS captures a narrower relationship, average salary relative to the Cost of Living Index, rather than overall household affordability or real purchasing power.
 
 Comparing SVS with the Local Purchasing Power Index therefore provides a useful sense-check on the custom metric. Where the two measures produce different rankings, this indicates that other economic factors may be influencing affordability, such as taxation, housing costs, household spending patterns, wage distribution and differences in how local prices affect residents.
 
-For this reason, the Salary Value Score should be interpreted as a comparative screening indicator rather than a standalone measure of affordability. It is useful for identifying countries where average salary appears relatively strong compared with the Cost of Living Index, but it should be considered alongside Local Purchasing Power and other economic indicators.
+For this reason, the Salary Value Score (SVS) should be interpreted as a comparative screening indicator rather than a standalone measure of affordability. It is useful for identifying countries where average salary appears relatively strong compared with the Cost of Living Index, but it should be considered alongside Local Purchasing Power and other economic indicators.
 
 ---
 
@@ -286,7 +288,7 @@ The findings demonstrate why salary figures should not be used in isolation when
 
 - The Cost of Living Index and Local Purchasing Power Index are comparable across countries. The analysis accepts Numbeo's methodology, where New York City = 100, as a consistent benchmark for international comparisons.
 
-- The custom Salary-to-Cost Ratio is treated as a comparative indicator rather than a measure of actual disposable income. It assumes that dividing average salary by the Cost of Living Index provides a useful way to compare countries, while recognising that it does not capture every aspect of affordability.
+- The custom Salary Value Score is treated as a comparative indicator rather than a measure of actual disposable income. It assumes that dividing average salary by the Cost of Living Index provides a useful way to compare countries, while recognising that it does not capture every aspect of affordability.
 
 ---
 
@@ -300,7 +302,7 @@ The findings demonstrate why salary figures should not be used in isolation when
 
 - The analysis used national average salaries, which can be limiting as average salaries do not reflect differences in income distribution, occupations or regions within each country.
 
-- The custom Salary-to-Cost Ratio is a simplified affordability measure. Although it provides useful comparisons between salaries and  cost for all countries, it does not account for additional factors, e.g. taxation, housing affordability, healthcare costs or even social benefits. This was observed with Switzerland, which ranked  relatively low using the custom ratio despite have on of the highest Local Purchasing Power Index values.
+- The Salary value score (SVS) is a simplified affordability measure. Although it provides useful comparisons between salaries and  cost for all countries, it does not account for additional factors, e.g. taxation, housing affordability, healthcare costs or even social benefits. This was observed with Switzerland, which ranked  relatively low using the custom ratio despite have on of the highest Local Purchasing Power Index values.
 
 - The cost of living index is a relative index rather than a direct measure of expenditure. Dividing salary by the Cost of Living Index creates a comparative indicator rather than a true measure of how much disposable income residents have after essential living expenses.
 
