@@ -288,6 +288,7 @@ The Salary Value Score (SVS) identified Luxembourg as the highest-ranking countr
 This highlights the value of using comparative metrics rather than salary alone, as countries with lower salaries may still rank more strongly when income is evaluated relative to living costs.
 
 **Insight 3 - Higher salaries do not always correspond to higher purchasing power**
+
 Switzerland recorded the third-highest average annual salary **($92,160.55 USD PPP)** and the second-highest Local Purchasing Power Index **(158.7)**, despite having the highest Cost of Living Index **(101.1)** in the dataset. This suggests that high living costs do not necessarily translate into weak purchasing power when income levels are also sufficiently high.
 
 Turkey presents a contrasting result. Although it ranked **second using the custom Salary Value Score (SVS)**, it recorded one of the lowest Local Purchasing Power Index values **(49.0)**. This divergence is analytically important because it shows that the SVS captures a narrower relationship, average salary relative to the Cost of Living Index, rather than overall household affordability or real purchasing power.
@@ -300,7 +301,7 @@ For this reason, the Salary Value Score (SVS) should be interpreted as a compara
 
 
 ## 11. Practical Implications
-The findings demonstrate why salary figures should not be used in isolation when comparing relative affordability across countries. The Salary Value Score (SVS) can be used as an initial comparative indicator, but it should be interpreted alongside the Local Purchasing Power Index and other relevant economic measures when evaluating how far income may stretch across countries.
+The findings demonstrate why salary figures should not be used in isolation when comparing relative affordability across countries. The Salary Value Score (SVS) can serve as an initial comparative indicator, but it should be interpreted alongside the Local Purchasing Power Index and other relevant economic measures when evaluating how far income goes across countries.
 
 
 ---
@@ -310,7 +311,7 @@ The findings demonstrate why salary figures should not be used in isolation when
 ### Assumptions
 
 **Data reliability**
-The OECD and Numbeo datasets are assumed to provide sufficiently reliable  2024 measures for the purposes of this comparative analysis. 
+The OECD and Numbeo datasets are assumed to provide sufficiently reliable 2024 measures for this comparative analysis. 
 
 **Average Annual Salary**
 Average annual salary is assumed to provide an appropriate basis for country-level comparison, despite differences in income distribution, occupations, and regional wage variation.
@@ -319,7 +320,7 @@ Average annual salary is assumed to provide an appropriate basis for country-lev
 OECD average annual wages are expressed in USD using Purchasing Power Parity (PPP), improving comparability between countries by accounting for differences in price levels.
 
 **Local Purchasing Power Index (PPI)**
-The Purchasing Power Index is taken from the Numbeo Cost of Living dataset and is used as a separate indicator of the relative local purchasing power. In this project, PPI is used alongside the Salary Value Score (SVS) rather than as part of the SVS calculation. 
+The Purchasing Power Index is derived from the Numbeo Cost of Living dataset and serves as a separate indicator of relative local purchasing power. In this project, PPI is used alongside the Salary Value Score (SVS) rather than as part of the SVS calculation. 
 
 **International index comparison**
 The analysis uses Numbeo's Cost of Living Index and Local Purchasing Power Index, where New York City = 100, as consistent benchmarks for international comparison.
@@ -338,10 +339,10 @@ Salary and cost-of-living measures originate from different organisations and ar
 OECD salaries used in this analysis are already expressed in PPP-adjusted USD, meaning differences in national price levels are partially incorporated into the salary measure. Dividing a PPP-adjusted salary by a separate Cost of Living Index therefore creates an exploratory comparative score rather than a direct measure of affordability.
 
 **3) Dataset coverage and time period**
- The analysis was limited to countries available in both the OECD salary dataset and the Numbeo Cost of Living dataset. Countries that could not be matched between the two sources were excluded, reducing the overall sample size. In addition, the analysis uses 2024 data only and therefore does not capture changes in salaries, living costs or purchasing power over time. 
+ The analysis was limited to countries available in both the OECD salary dataset and the Numbeo Cost of Living dataset. Countries that could not be matched between the two sources were excluded, reducing the overall sample size. In addition, the analysis uses only 2024 data and therefore does not capture changes in salaries, living costs, or purchasing power over time. 
 
 **4) Use of national average salaries**
-National averages can mask substantial differences in income distribution, occupations and regions within each country. As a result, the reported average salary may not represent the earnings experienced by a typical individual.
+National averages can mask substantial differences in income distribution, occupations and regions within each country. As a result, the reported average salary may not reflect the earnings of a typical individual.
 
 **5) Scope of the Salary Value Score (SVS)**
 SVS is a simplified comparative indicator based only on average annual salary and the Cost of Living Index. It does not account for additional factors such as taxation, housing costs, healthcare costs, social benefits or household composition. Therefore, it should not be interpreted as a complete measure of individual or household affordability.
@@ -372,7 +373,7 @@ The Cost of Living Index is a relative index rather than a direct measure of exp
 | **SQL Scripts** | SQL scripts used for data cleaning, transformation, view creation and analytical queries. | `/sql/` |
 | **Raw Datasets** | Original OECD salary data and Numbeo Cost of Living dataset used for the analysis. | `/data/raw/` |
 | **Processed Dataset** | Final `country_analysis` dataset used for Power BI visualisations. | `/data/processed/` |
-| **ERD Diagram** | Entity Relationship Diagram illustrating the database structure and table relationships. | `/visuals/erd.png` |
+| **ERD Diagram** | Entity-Relationship Diagram illustrating the database structure and relationships among tables. | `/visuals/erd.png` |
 | **Dashboard Screenshots** | Images of the final Power BI dashboard used in the README. | `/visuals/` |
 
 
