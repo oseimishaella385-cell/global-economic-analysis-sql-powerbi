@@ -355,16 +355,6 @@ The Cost of Living Index is a relative index rather than a direct measure of exp
 | **Dashboard Screenshots** | Images of the final Power BI dashboard used in the README. | `/visuals/` |
 
 
-| Deliverable               | Description                                                                                | Location  |
-
-| **README.md**             | Project overview, methodology, analysis, findings, recommendations and documentation.      | `/README.md`                           |
-
-| **SQL Scripts**           | SQL scripts used for data cleaning, transformation, view creation and analytical queries.  | `/sql/`                                |
-| **Raw Datasets**          | Original OECD salary data and Numbeo Cost of Living dataset used for the analysis.         | `/data/raw/`                           |
-| **Processed Dataset**     | Final `country_analysis` dataset used for Power BI visualisations.                         | `/data/processed/`                     |
-| **ERD Diagram**           | Entity Relationship Diagram illustrating the database structure and table relationships.   | `/visuals/erd.png`                     |
-| **Dashboard Screenshots** | Images of the final Power BI dashboard used in the README.                                 | `/visuals/`                            |
-
 ---
 
 ## 14. Author
@@ -378,5 +368,5 @@ Aspiring Data Analyst
 
 ---
 
-*Last updated: June 2026
+*Last updated: August 2026
 
