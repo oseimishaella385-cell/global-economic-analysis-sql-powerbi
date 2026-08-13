@@ -206,11 +206,11 @@ The diagram below illustrates the relationship between the OECD salary dataset, 
 ## 8. Analysis & Metrics
 
 ### Analytical Approach
-This project followed an analytical approach to investigate whether average annual salaries keep pace with the cost of living across countries. Rather than testing a predefined hypothesis, the analysis explored relationships among Salary, living costs, and purchasing power to identify patterns in global affordability.
+This project used an exploratory comparative approach to examine how average annual salaries relate to cost of living and local purchasing power across countries in 2024. The analysis compared these indicators to identify country-level patterns and assess whether higher salaries necessarily correspond with strong salary value or Local Purchasing Power.
 
-The initial assumption was that countries with higher salaries would also achieve higher Salary Value Score (SVS), as greater earnings were expected to offset higher living costs. Conversely, countries with lower salaries and higher living costs were expected to produce lower Salary-to-Cost Ratios. 
+The first expectation was that countries with higher Average Annual Salaries would generally achieve higher Salary Value Score (SVS), as greater earnings may offset higher living costs. However, because SVS considers both salary and the Cost of Living Index, countries with high salaries but particularly high living costs were not necessarily expected to rank highest. 
 
-The second assumption was that countries with a higher local Purchasing Power Index would also achieve a higher Salary Value Score (SVS), as stronger purchasing power was expected to reflect greater affordability.
+The second expectation was that countries with a higher Local Purchasing Power Index would also tend to achieve a higher SVS, as both measures provide different perspectives on the relationship between income and living costs. Comparing the two measures provided an additional way to assess whether countries ranking highly by SVS also demonstrated strong local purchasing power. 
 
 ### Key Metrics Defined
 
