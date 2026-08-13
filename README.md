@@ -16,11 +16,12 @@ Which countries offer the strongest balance between average salary, cost of livi
 7. [ERD - Entity Relationship Diagram](#7-erd--entity-relationship-diagram) 
 8. [Analysis & Metrics](#8-analysis--metrics)
 9. [Key Insights](#9-key-insights)
-10. [Practical Implications](#10-practical-implications)
-11. [Assumptions & Limitations](#11-assumptions--limitations)
-12. [Future Enhancements](#12-future-enhancements)
-13. [Deliverables](#13-deliverables)
-14. [Author](#14-author)
+10. [Power BI Dashboard](#7-power-bi-dashboard)
+11. [Practical Implications](#10-practical-implications)
+12. [Assumptions & Limitations](#11-assumptions--limitations)
+13. [Future Enhancements](#12-future-enhancements)
+14. [Deliverables](#13-deliverables)
+15. [Author](#14-author)
 
 ---
 
@@ -269,7 +270,7 @@ The example below shows the **Bottom 25% SVS category** selected. Switzerland is
 
 ![Bottom 25% SVS Dashboard Interaction](visuals/dashboard_bottom25_filtered.png)
 
-## 9. Key Insights
+## 10. Key Insights
  
 **Insight 1 — Higher salaries often coincide with higher living costs**
 
@@ -290,20 +291,20 @@ Switzerland recorded the third-highest average annual salary **($92,160.55 USD P
 
 Turkey presents a contrasting result. Although it ranked **second using the custom Salary Value Score (SVS)**, it recorded one of the lowest Local Purchasing Power Index values **(49.0)**. This divergence is analytically important because it shows that the SVS captures a narrower relationship, average salary relative to the Cost of Living Index, rather than overall household affordability or real purchasing power.
 
-Comparing SVS with the Local Purchasing Power Index therefore provides a useful sense-check on the custom metric. Where the two measures produce different rankings, this suggests that SVS alone does not capture all the other economic factors influencing local purchasing power.
+Comparing SVS with the Local Purchasing Power Index therefore provides a useful sense check for the custom metric. When the two measures produce different rankings, this suggests that SVS alone does not capture all the other economic factors that influence local purchasing power.
 
 For this reason, the Salary Value Score (SVS) should be interpreted as a comparative screening indicator rather than a standalone measure of affordability. It is useful for identifying countries where average salary appears relatively strong compared with the Cost of Living Index, but it should be considered alongside Local Purchasing Power and other economic indicators.
 
 ---
 
 
-## 10. Practical Implications
+## 11. Practical Implications
 The findings demonstrate why salary figures should not be used in isolation when comparing relative affordability across countries. The Salary Value Score (SVS) can be used as an initial comparative indicator, but it should be interpreted alongside the Local Purchasing Power Index and other relevant economic measures when evaluating how far income may stretch across countries.
 
 
 ---
 
-## 11. Assumptions & Limitations
+## 12. Assumptions & Limitations
 
 ### Assumptions
 
@@ -349,12 +350,12 @@ The Cost of Living Index is a relative index rather than a direct measure of exp
 
 ---
 
-## 12. Future Enhancements
-**Enhancement 1** - Expand the analysis to multiple years, such as 2021-2025, to examine how salaries, cost of living and purchasing power have changed over time and identify longer-term trends.
+## 13. Future Enhancements
+**Enhancement 1** - Expand the analysis to multiple years, such as 2021-2025, to examine how salaries, cost of living and purchasing power have changed over time and to identify longer-term trends.
 
-**Enhancement 2** - Replace average annual salary with median annual salary where suitable data are available. Median salary is less influenced by extremely high earners and may provide a better representation of the earnings of a typical worker.
+**Enhancement 2** - Replace average annual salary with median annual salary where suitable data are available. The median salary is less influenced by extremely high earners and may better represent the earnings of a typical worker.
 
-**Enhancement 3** - Incorporate an additional affordability measure such as income taxation, housing costs or disposable income to develop a more comprehensive assessment of affordability.
+**Enhancement 3** - Incorporate an additional affordability measure, such as income tax, housing costs, or disposable income, to develop a more comprehensive assessment of affordability.
 
 **Enhancement 4** - Extend the analysis to city- level data, which would allow for affordability comparisons within countries rather than relying solely on national averages.
 
@@ -362,7 +363,7 @@ The Cost of Living Index is a relative index rather than a direct measure of exp
 
 ---
 
-## 13. Deliverables
+## 14. Deliverables
 
 | Deliverable | Description | Location |
 | --- | --- | --- |
@@ -376,7 +377,7 @@ The Cost of Living Index is a relative index rather than a direct measure of exp
 
 ---
 
-## 14. Author
+## 15. Author
 
 **Mishaella Osei**
 Aspiring Data Analyst
