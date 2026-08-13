@@ -331,15 +331,15 @@ The Cost of Living Index is a relative index rather than a direct measure of exp
 ---
 
 ## 12. Future Enhancements
-**Enhancement 1** - Expand the analysis to multiple years, preferably (2021-2025), to examine how salaries, cost of living and purchasing power have changed over time and identify long-term affordability trends.
+**Enhancement 1** - Expand the analysis to multiple years, such as 2021-2025, to examine how salaries, cost of living and purchasing power have changed over time and identify longer-term trends.
 
-**Enhancement 2** - Preferably replace average annual salary with median annual salary, as a median income is less affected by extremely high earners and provides a representative measure of typical workers' earnings
+**Enhancement 2** - Replace average annual salary with median annual salary where suitable data are available. Median salary is less influenced by extremely high earners and may provide a better representation of the earnings of a typical worker.
 
-**Enhancement 3** - Incorporate an additional affordability measure such as income tax or housing
+**Enhancement 3** - Incorporate an additional affordability measure such as income taxation, housing costs or disposable income to develop a more comprehensive assessment of affordability.
 
-**Enhancement 4** - Extend the analysis to city- level data, which would allow for affordability comparisons within countries rather than relying solely on national averages
+**Enhancement 4** - Extend the analysis to city- level data, which would allow for affordability comparisons within countries rather than relying solely on national averages.
 
-**Key takeaway:** The country with the highest salary is not necessarily the country where income provides the strongest relative value. This project demonstrates both the usefulness—and the limitations—of combining salary and cost-of-living data when evaluating international affordability.
+**Key takeaway:** The country with the highest salary is not necessarily the country where income provides the strongest relative value. This project demonstrates both the usefulness and limitations of combining salary and cost-of-living data when evaluating international affordability.
 
 ---
 
