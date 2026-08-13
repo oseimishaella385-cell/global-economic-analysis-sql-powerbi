@@ -146,8 +146,8 @@ Dashboard & Documentation
 | Field Name | Data Type | Description | Example Value |
 |------------|-----------|-------------|---------------|
 | Country | VARCHAR| Country name used to join datasets | Australia |
-| Cost of living Index | DECIMAL | Relative cost of living index (NYC = 100) | 70.20 |
-| Local Purchasing Power Index | DECIMAL | Relative local purchasing power index (NYC = 100) | 127.40 |
+| Cost of Living Index | DECIMAL | Relative Cost of Living Index (NYC = 100) | 70.20 |
+| Local Purchasing Power Index | DECIMAL | Relative Local Purchasing Power Index (NYC = 100) | 127.40 |
 
 > **Row count (approx.):** 122 Rows
 > **Date range:** 2024
