@@ -221,6 +221,7 @@ The second expectation was that countries with a higher Local Purchasing Power I
 
 
 **Salary Value Score (SVS)**
+
 The Salary Value Score is a custom comparative metric developed for this project to evaluate average annual salary relative to a country's Cost of Living Index.
 
 Formula:
@@ -233,6 +234,7 @@ For example, Luxembourg's average annual salary of approximately **$97,462 USD P
 The score should not be interpreted as disposable income, household purchasing power, or the number of dollars remaining after living expenses. The Cost of Living Index is a relative index rather than a monetary expenditure value. SVS is therefore intended primarily as a ranking and screening measure for comparing countries within this dataset.
 
 **Salary Value Score (SVS) Quartiles**
+
 Countries were grouped into four categories using SQL's NTILE(4) function based on their Salary Value Score: **Bottom 25%, Lower Middle, Upper Middle,** and **Top 25%**. These categories provide a simple way to compare countries by their relative SVS position within the dataset.
 
 
