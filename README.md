@@ -20,7 +20,7 @@ Which countries offer the strongest balance between average salary, cost of livi
 7. [ERD - Entity Relationship Diagram](#7-erd--entity-relationship-diagram) 
 8. [Analysis & Metrics](#8-analysis--metrics)
 9. [Key Insights](#9-key-insights)
-10. [Recommendations](#10-recommendations)
+10. [Practical Implications](#10-practical-implications)
 11. [Assumptions & Limitations](#11-assumptions--limitations)
 12. [Future Enhancements](#12-future-enhancements)
 13. [Deliverables](#13-deliverables)
@@ -33,7 +33,7 @@ Which countries offer the strongest balance between average salary, cost of livi
 In recent years, the increased cost of living has become a significant global issue, making it difficult for many people to maintain their standard of living. This project was motivated by the desire to understand how living costs compare with average annual salaries across different countries, and to explore which countries offer the greatest affordability.
 
 **Problem statement:**
-" A high salary does not necessarily mean a better quality of life if the cost of living is also high"
+" A high salary does not necessarily translate into greater affordability when the cost of living is also high."
 
 **Approach:**
 Datasets from the OECD and Numbeo were reviewed and consolidated into a single analytical dataset using SQL (MySQL). I then developed an interactive Power BI dashboard to compare countries using salary, cost of living, purchasing power, and a custom Salary Value Score to evaluate overall affordability.
@@ -48,6 +48,14 @@ The analysis showed that countries with the highest salaries were not always the
 - **Secondary Objective 1:** Identify which top 5 countries offer the best balance between average annual salary and cost of living by developing a custom Salary Value Score.
 - **Secondary Objective 2:** Do countries with higher average salaries also have higher local purchasing power?
 
+**Analytical Questions**
+
+The analysis was structured around four questions:
+
+Which countries report the highest average annual salaries?
+Are countries with higher salaries also more expensive to live in?
+Which countries offer the strongest salary relative to their Cost of Living Index?
+Do countries ranked highly by the custom Salary Value Score also demonstrate strong local purchasing power?
 ---
 
 ## 3. Project Scope & Tools
@@ -56,7 +64,7 @@ The analysis showed that countries with the highest salaries were not always the
 
 | Dimension | Details |
 |-----------|---------|
-| **In Scope** | OECD 2024-2026 Average Annual Salary data (USD PPP adjusted) and Numbeo 2024 Cost of Living Index data for countries available in both datasets. |
+| **In Scope** | OECD 2024 Average Annual Salary data (USD PPP-adjusted) and Numbeo 2024 Cost of Living Index data for countries available in both datasets. |
 | **Out of Scope** | City-level comparisons, restaurant index, historical trend analysis, taxation and countries and years not available in both datasets. |
 | **Time Period** | 2024 |
 | **Granularity** | Country level analysis  |
@@ -206,6 +214,20 @@ The second assumption was that countries with a higher local Purchasing Power In
 | Salary-to-Cost Ratio | Custom metric calculated as Average Annual Salary / Cost of living index | Provides a simple comparison of salaries relative to living costs|
 | Salary-to-Cost Rank | Ranking countries based on Salary-to-Cost Ratio | Identifies countries where salaries appear strongest relative to living costs |
 
+
+**Salary Value Score (SVS)**
+The Salary Value Score is a custom comparative metric developed for this project to evaluate average annual salary relative to a country's cost of living.
+
+Formula:
+Salary Value Score = Average Annual Salary (USD PPP) / Cost of Living Index
+
+A higher SVS indicates that average salary is larger relative to the country's Cost of Living Index, while a lower score indicates that salary is smaller relative to living costs.
+
+For example, Luxembourg's average annual salary of approximately $97,462 USD PPP divided by its Cost of Living Index of 62.4 produces an SVS of approximately 1,561.9.
+
+The score should not be interpreted as disposable income, household purchasing power, or the number of dollars remaining after living expenses. The Cost of Living Index is a relative index rather than a monetary expenditure value. SVS is therefore intended primarily as a ranking and screening measure for comparing countries within this dataset.
+
+
 ### Methods Used
 **SQL INNER JOIN** – Combined the salary and cost of living datasets.
 **Data filtering** – Selected 2024 observations and USD (PPP) salary values.
@@ -244,13 +266,9 @@ This demonstrates that affordability should be assessed using multiple economic 
 ---
 
 
-## 10. Recommendations
+## 10. Practical Implications
+The findings demonstrate why salary figures should not be used in isolation when comparing economic conditions between countries. For analysts, employers, researchers or individuals considering international relocation, salary comparisons should be evaluated alongside local prices and purchasing power. The SVS can provide an initial screening tool, but countries identified as high-value should subsequently be assessed using purchasing power, taxation, housing costs and disposable income.
 
-| Priority | Recommendation | Based On | Suggested Owner |
-|----------|---------------|----------|-----------------|
-| High | Evaluate affordability using multiple indicators (salary, cost of living and purchasing power) rather than salary alone when comparing countries | Insight 3 - Higher Salaries do not always correspond to higher purchasing power |Analysts|
-| Medium | Use the custom Salary-to-Cost Ratio as an initial screening too to identify countries where salaries appear to offer strong value, then validate findings using Purchasing Power Index data | Insight 2 - The custom Salary-to ratio identified different "best value" countries| Data Analysts |
-| Low | Expand the analysis by incorporating additional variables such as housing costs, taxation, disposable income and inflation to produce a more comprehensive affordability measure.| Insights 1-3 |Future Project/Researchers|
 
 ---
 
@@ -261,7 +279,9 @@ This demonstrates that affordability should be assessed using multiple economic 
 
 - Average annual salary is representative of a country's workforce. The analysis assumes that the reported average salary is an appropriate measure for comparing countries, despite differences in income distribution, occupations, and regional wage variation.
 
-- Salary values reported in USD (PPP adjusted) provide a fair basis for comparison. Using Purchasing Power Index (PPI) assumes that differences in exchange rates and price levels have already been accounted for, making salaries comparable across countries.
+-  PPP-adjusted salary: OECD average annual wages are expressed in USD using Purchasing Power Parity (PPP), improving comparability between countries by accounting for differences in price levels.
+
+- Purchasing Power Index (PPI): The Purchasing Power Index is taken from the Cost of Living dataset and is used as a separate indicator of the relative purchasing power available to residents within each country. In this project, PPI is used alongside the Salary Value Score rather than as part of the SVS calculation.
 
 - The Cost of Living Index and Local Purchasing Power Index are comparable across countries. The analysis accepts Numbeo's methodology, where New York City = 100, as a consistent benchmark for international comparisons.
 
@@ -271,7 +291,12 @@ This demonstrates that affordability should be assessed using multiple economic 
 
 ### Limitations
 
+- Different source methodologies: Salary and cost-of-living measures originate from different organisations and are produced using different methodologies. OECD wage estimates are based on official economic/labour statistics, whereas Numbeo's cost-of-living measures are compiled using its own price-data methodology. Joining these datasets enables useful exploratory comparisons, but the resulting metrics should not be interpreted as official OECD affordability measures.
+
+- PPP adjustment and cost-of-living measurement: OECD salaries used in this analysis are already expressed in PPP-adjusted USD, meaning differences in national price levels are partially incorporated into the salary measure. Dividing a PPP-adjusted salary by a separate Cost of Living Index therefore creates an exploratory comparative score rather than a pure economic measure of affordability. Future analysis could test alternative specifications using nominal/market-exchange-rate income, disposable household income, or median income alongside actual expenditure measures.
+
 - The analysis was limited to countries available in both the OECD salary dataset and the Numbeo Cost of Living dataset. Countries that could not be matched between the two sources were excluded from the analysis, reducing the overall sample size. In addition, the use of 2024 data only means changes in salaries over time were not captured; therefore, there was no chance to identify long-term trends. 
+
 - The analysis used national average salaries, which can be limiting as average salaries do not reflect differences in income distribution, occupations or regions within each country.
 
 - The custom Salary-to-Cost Ratio is a simplified affordability measure. Although it provides useful comparisons between salaries and  cost for all countries, it does not account for additional factors, e.g. taxation, housing affordability, healthcare costs or even social benefits. This was observed with Switzerland, which ranked  relatively low using the custom ratio despite have on of the highest Local Purchasing Power Index values.
@@ -288,6 +313,8 @@ This demonstrates that affordability should be assessed using multiple economic 
 **Enhancement 3** - Incorporate an additional affordability measure such as income tax or housing
 
 **Enhancement 4** - Extend the analysis to city- level data, which would allow for affordability comparisons within countries rather than relying solely on national averages
+
+**Key takeaway:** The country with the highest salary is not necessarily the country where income provides the strongest relative value. This project demonstrates both the usefulness—and the limitations—of combining salary and cost-of-living data when evaluating international affordability.
 
 ---
 
