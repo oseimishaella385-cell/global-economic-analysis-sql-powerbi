@@ -44,10 +44,10 @@ The analysis showed that countries with the highest salaries were not always the
 ---
 
 ## 2. Objectives
-- **Primary Objective:** To assess whether average annual salaries keep pace with the cost of living across countries
-- **Secondary Objective 1:** Identify which top 5 countries offer the best balance between average annual salary and cost of living by developing a custom Salary Value Score.
-- **Secondary Objective 2:** Do countries with higher average salaries also have higher local purchasing power?
-
+- **Primary Objective:** To assess how average annual salaries compare with the cost of living across countries.
+- **Secondary Objective 1:** To identify the five countries with the strongest salary value relative to living costs using a custom Salary Value Score (SVS).
+- **Secondary Objective 2:**  To examine whether countries with higher average salaries also demonstrate higher local purchasing power.
+  
 **Analytical Questions**
 The analysis was structured around four questions:
 
@@ -57,7 +57,7 @@ The analysis was structured around four questions:
   
 - Which countries offer the strongest salary relative to their Cost of Living Index?
   
-- Do countries ranked highly by the custom Salary Value Score also demonstrate strong local purchasing power?
+- Do countries ranked highly by the custom Salary Value Score (SVS) also demonstrate strong local purchasing power?
 ---
 
 ## 3. Project Scope & Tools
@@ -67,9 +67,9 @@ The analysis was structured around four questions:
 | Dimension | Details |
 |-----------|---------|
 | **In Scope** | OECD 2024 Average Annual Salary data (USD PPP-adjusted) and Numbeo 2024 Cost of Living Index data for countries available in both datasets. |
-| **Out of Scope** | City-level comparisons, restaurant index, historical trend analysis, taxation and countries and years not available in both datasets. |
+| **Out of Scope** | City-level comparisons, Restaurant Index, historical trend analysis, taxation, household-level affordability factors and countries not available in both datasets. |
 | **Time Period** | 2024 |
-| **Granularity** | Country level analysis  |
+| **Granularity** | Country-level analysis  |
 
 ---
 
