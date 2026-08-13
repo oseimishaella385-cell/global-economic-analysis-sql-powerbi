@@ -216,11 +216,11 @@ The second expectation was that countries with a higher Local Purchasing Power I
 
 | Metric | Plain-Language Definition | Why It Matters |
 |--------|--------------------------|----------------|
-| Average Annual Salary | Average yearly wage (USD PPP) reported by the OECD. | Enables salary comparisons across countries |
-| Cost of living index | Relative cost of living compared with New York City (NYC = 100) | Indicates how expensive it is to live in each country |
-| Local Purchasing Power Index | Relative purchasing power compared with New York City (NYC = 100) | Measures how much residents can afford with local incomes |
-| Salary-to-Cost Ratio | Custom metric calculated as Average Annual Salary / Cost of living index | Provides a simple comparison of salaries relative to living costs|
-| Salary-to-Cost Rank | Ranking countries based on Salary-to-Cost Ratio | Identifies countries where salaries appear strongest relative to living costs |
+| Average Annual Salary | Average yearly wage (USD PPP) reported by the OECD in USD using Purchasing Power Parity (PPP). | Enables more comparable salary comparisons across countries by accounting for differences in price levels. |
+| Cost of Living Index | Relative measure of consumer prices, with New York City used as the benchmark (NYC = 100). | Indicates the relative cost of living across countries.  |
+| Local Purchasing Power Index | Relative purchasing power of local incomes compared with New York City (NYC = 100). | Provides an additional indicator of how strongly local incomes compare with local prices. |
+| Salary Value Score (SVS) | Custom metric calculated as Average Annual Salary (USD PPP) ÷ Cost of Living Index. | Provides a comparative measure of salary value relative to living costs.|
+| Salary Value Rank | Ranking countries based on Salary Value Score. | Identifies countries where average salaries appear strongest relative to the Cost of Living Index. |
 
 
 **Salary Value Score (SVS)**
