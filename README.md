@@ -45,6 +45,7 @@ The analysis showed that countries with the highest salaries were not always the
 - **Secondary Objective 2:**  To examine whether countries with higher average salaries also demonstrate higher local purchasing power.
   
 **Analytical Questions**
+
 The analysis was structured around four questions:
 
 - Which countries report the highest average annual salaries?
