@@ -15,14 +15,15 @@ This project combines OECD salary data with Numbeo cost-of-living data to evalua
 6. [Data Model & Schema](#6-data-model--schema)
 7. [ERD - Entity Relationship Diagram](#7-erd--entity-relationship-diagram) 
 8. [Analysis & Metrics](#8-analysis--metrics)
-9.[Power BI Dashboard](#9-power-bi-dashboard)
+9.  [Power BI Dashboard](#9-power-bi-dashboard)
 10. [Key Insights](#10-key-insights)  
 11. [Practical Implications](#11-practical-implications)
-12. [Assumptions & Limitations](#12-assumptions--limitations)
-13. [Future Enhancements](#13-future-enhancements)
+12.  [Assumptions & Limitations](#12-assumptions--limitations)
+13.[Future Enhancements](#13-future-enhancements)
 14. [Deliverables](#14-deliverables)
-15. [Author](#15-author)
+15.  [Author](#15-author)
 
+  
 ---
 
 ## 1. Project Overview
