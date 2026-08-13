@@ -101,7 +101,7 @@ The analysis was structured around four questions:
 │
 ├── queries/                  # SQL files 
 │   ├── transformations/      # Cleaning and reshaping logic
-│   └── final/                # Production-ready or presentation queries
+│   └── final/                # Final analysis and presentation queries
 │
 │
 ├── visuals/                  # Exported charts, dashboard screenshots, ERD diagrams
