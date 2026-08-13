@@ -273,7 +273,7 @@ The example below shows the **Bottom 25% SVS category** selected. Switzerland is
 
 ## 10. Key Insights
  
-**Insight 1 — Higher salaries often coincide with higher living costs**
+**Insight 1 - Higher salaries often coincide with higher living costs**
 
 Six of the ten countries with the highest average annual salaries also appeared among the ten countries with the highest Cost of Living Indexes, including Iceland, the United States, Switzerland, Denmark, Austria and Norway. This suggests that higher salaries are often accompanied by higher living expenses, meaning higher income alone does not necessarily translate into relative living costs.
 
@@ -281,13 +281,13 @@ Among the ten most expensive countries, nine had a Cost of Living Index at least
 
 This indicates that comparing salaries in isolation can give a misleading picture of affordability. Cost of living should be considered alongside income when comparing countries, as higher wages are often offset by higher everyday expenses.
 
-**Insight 2 — The custom Salary Value Score (SVS) identified countries offering the strongest salary relative to living costs**
+**Insight 2 - The custom Salary Value Score (SVS) identified countries offering the strongest salary relative to living costs**
 
 The Salary Value Score (SVS) identified Luxembourg as the highest-ranking country, with a score of **1,561.89**, followed by Turkey. Although Luxembourg did not have the highest average annual salary, its combination of a high salary (**$97,462.05 USD PPP**) and a comparatively lower Cost of Living Index (**62.4**) resulted in the highest SVS. This demonstrates that countries with lower living costs can outperform countries with higher salaries when salaries are evaluated relative to living costs rather than income alone.
 
 This highlights the value of using comparative metrics rather than salary alone, as countries with lower salaries may still rank more strongly when income is evaluated relative to living costs.
 
-**Insight 3 — Higher salaries do not always correspond to higher purchasing power**
+**Insight 3 - Higher salaries do not always correspond to higher purchasing power**
 Switzerland recorded the third-highest average annual salary **($92,160.55 USD PPP)** and the second-highest Local Purchasing Power Index **(158.7)**, despite having the highest Cost of Living Index **(101.1)** in the dataset. This suggests that high living costs do not necessarily translate into weak purchasing power when income levels are also sufficiently high.
 
 Turkey presents a contrasting result. Although it ranked **second using the custom Salary Value Score (SVS)**, it recorded one of the lowest Local Purchasing Power Index values **(49.0)**. This divergence is analytically important because it shows that the SVS captures a narrower relationship, average salary relative to the Cost of Living Index, rather than overall household affordability or real purchasing power.
