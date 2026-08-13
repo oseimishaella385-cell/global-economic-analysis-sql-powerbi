@@ -256,7 +256,7 @@ Countries were grouped into four categories using SQL's NTILE(4) function based 
 **Power BI visualisation** – Presented findings using interactive charts and maps.
 
 ---
-## 9. Power BI Dashboard**
+## 9. Power BI Dashboard
 
 The interactive Power BI dashboard presents country-level comparisons across Average Annual Salary, Cost of Living Index, Local Purchasing Power Index and Salary Value Score (SVS).
 
