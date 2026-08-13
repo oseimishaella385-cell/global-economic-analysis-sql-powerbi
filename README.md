@@ -237,12 +237,19 @@ The score should not be interpreted as disposable income, household purchasing p
 
 
 ### Methods Used
+
 **SQL INNER JOIN** – Combined the salary and cost of living datasets.
+
 **Data filtering** – Selected 2024 observations and USD (PPP-adjusted) salary values.
+
 **Data cleaning** – Standardised country names and removed unmatched records.
+
 **Calculated metric** – Created a custom Salary Value Score (SVS) to compare average annual salary relative to the Cost of Living Index.
+
 **SQL Window Functions** – Used `RANK()` to rank countries and `NTILE()` to group countries into Salary Value Score quartiles.
+
 **Comparative analysis**– Compared salary, cost of living, Salary Value Score  and local purchasing power across countries.
+
 **Power BI visualisation** – Presented findings using interactive charts and maps.
 
 ---
