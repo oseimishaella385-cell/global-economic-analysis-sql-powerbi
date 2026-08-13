@@ -30,16 +30,16 @@ Which countries offer the strongest balance between average salary, cost of livi
 
 ## 1. Project Overview
 **Context:**
-In recent years, the increased cost of living has become a significant global issue, making it difficult for many people to maintain their standard of living. This project was motivated by the desire to understand how living costs compare with average annual salaries across different countries, and to explore which countries offer the greatest affordability.
+In recent years, the increased cost of living has become a significant global issue, making it difficult for many people to maintain their standard of living. This project was motivated by the desire to understand how living costs compare with average annual salaries across different countries, and to explore which countries offer stronger salary value relative to living costs.
 
 **Problem statement:**
-" A high salary does not necessarily translate into greater affordability when the cost of living is also high."
+A high salary does not necessarily translate into greater affordability when the cost of living is also high.
 
 **Approach:**
-Datasets from the OECD and Numbeo were reviewed and consolidated into a single analytical dataset using SQL (MySQL). I then developed an interactive Power BI dashboard to compare countries using Salary, Cost of living, Purchasing Power Index (PPI), and a custom Salary Value Score (SVS) to evaluate relative affordability.
+Datasets from the OECD and Numbeo were reviewed and consolidated into a single analytical dataset using SQL (MySQL). I then developed an interactive Power BI dashboard to compare countries using Average Annual Salary, Cost of Living Index, Local Purchasing Power Index (PPI), and a custom Salary Value Score (SVS) to evaluate relative affordability.
 
 **Outcome:**
-The analysis showed that countries with the highest salaries were not always the most affordable. Using the Salary Value Score (SVS), the project identified Luxembourg as offering one of the strongest balances between salary and living costs, demonstrating that affordability depends on both income and the cost of goods and services rather than salary alone.
+The analysis showed that countries with the highest salaries were not always the most affordable. Based on the Salary Value Score (SVS), Luxembourg achieved the highest score, indicating a strong relationship between average salary and its Cost of Living Index. Overall, the findings demonstrate why salary should be considered alongside living costs and purchasing power when comparing relative affordability across countries.
 
 ---
 
