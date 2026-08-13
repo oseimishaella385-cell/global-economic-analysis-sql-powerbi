@@ -36,7 +36,7 @@ In recent years, the increased cost of living has become a significant global is
 " A high salary does not necessarily translate into greater affordability when the cost of living is also high."
 
 **Approach:**
-Datasets from the OECD and Numbeo were reviewed and consolidated into a single analytical dataset using SQL (MySQL). I then developed an interactive Power BI dashboard to compare countries using Salary, Cost of living, Purchasing Power Index (PPI), and a custom Salary Value Score (SVS) to evaluate overall affordability.
+Datasets from the OECD and Numbeo were reviewed and consolidated into a single analytical dataset using SQL (MySQL). I then developed an interactive Power BI dashboard to compare countries using Salary, Cost of living, Purchasing Power Index (PPI), and a custom Salary Value Score (SVS) to evaluate relative affordability.
 
 **Outcome:**
 The analysis showed that countries with the highest salaries were not always the most affordable. Using the Salary Value Score (SVS), the project identified Luxembourg as offering one of the strongest balances between salary and living costs, demonstrating that affordability depends on both income and the cost of goods and services rather than salary alone.
