@@ -18,8 +18,8 @@ This project combines OECD salary data with Numbeo cost-of-living data to evalua
 9.  [Power BI Dashboard](#9-power-bi-dashboard)
 10. [Key Insights](#10-key-insights)  
 11. [Practical Implications](#11-practical-implications)
-12.  [Assumptions & Limitations](#12-assumptions--limitations)
-13.[Future Enhancements](#13-future-enhancements)
+12. [Assumptions & Limitations](#12-assumptions--limitations)
+13. [Future Enhancements](#13-future-enhancements)  
 14. [Deliverables](#14-deliverables)
 15.  [Author](#15-author)
 
